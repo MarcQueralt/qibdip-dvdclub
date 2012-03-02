@@ -1,0 +1,21 @@
+# Catalan translation of CakePHP Application
+# Copyright 2012 marc <marc@qibdip.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dvdClub v1.0\n"
+"POT-Creation-Date: 2012-02-11 11:52+0100\n"
+"PO-Revision-Date: 2012-02-11 12:00+0100\n"
+"Last-Translator: marc <marc@qibdip.com>\n"
+"Language-Team: qibdip <info@qibdip.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: webroot/test.php:87
+msgid "Debug setting does not allow access to this url."
+msgstr "La configuració de debug no permet d'accedir a aquesta url."
+

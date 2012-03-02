@@ -1,0 +1,583 @@
+2012-02-11 11:46:18 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(574): HelperCollection->load('Ajax', Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(356): View->loadHelpers()
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(FormatsController), Object(CakeRequest), Object(CakeResponse))
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-02-11 11:46:23 Error: [MissingControllerException] Controller class FormatController could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-11 11:46:27 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(574): HelperCollection->load('Ajax', Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(356): View->loadHelpers()
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(FormatsController), Object(CakeRequest), Object(CakeResponse))
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-02-11 11:47:09 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(574): HelperCollection->load('Ajax', Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(356): View->loadHelpers()
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(FormatsController), Object(CakeRequest), Object(CakeResponse))
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-02-11 11:47:11 Error: [MissingControllerException] Controller class FormatController could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-11 11:47:17 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(574): HelperCollection->load('Ajax', Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(356): View->loadHelpers()
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(FormatsController), Object(CakeRequest), Object(CakeResponse))
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-02-11 11:47:55 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(574): HelperCollection->load('Ajax', Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/View/View.php(356): View->loadHelpers()
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(FormatsController), Object(CakeRequest), Object(CakeResponse))
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-02-11 13:03:20 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:09:18 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:10:17 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:17:15 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:19:48 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:19:57 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:22:38 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 13:57:44 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 14:00:32 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 14:00:36 Error: [MissingPluginException] Plugin Search could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(332): CakePlugin::path('Search')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(217): App::pluginPath('Search')
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'Search')
+#3 [internal function]: App::load('PrgComponent')
+#4 [internal function]: spl_autoload_call('PrgComponent')
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(98): class_exists('PrgComponent')
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/ComponentCollection.php(51): ComponentCollection->load('Search.Prg', Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(ClientsController))
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-11 16:36:43 Error: [MissingActionException] Action ClientsController::surname:sans() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-11 17:10:15 Error: [MissingActionException] Action ClientsController::search() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-11 17:13:07 Error: [MissingActionException] Action ClientsController::search() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-12 17:18:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.lastname' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(39): Controller->paginate()
+#8 [internal function]: ClientsController->index()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-02-12 17:22:14 Error: [MissingActionException] Action ClientsController::Search.surname:hola() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-12 21:46:53 Error: [MissingControllerException] Controller class SuortsController could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-12 21:46:56 Error: [MissingControllerException] Controller class SuportsController could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-12 23:24:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Copy`.`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Copy`.`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Copy`.`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Copy), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/CopiesController.php(37): Controller->paginate()
+#8 [internal function]: CopiesController->index()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(CopiesController), Array)
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(CopiesController), Object(CakeRequest), Object(CakeResponse))
+#12 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-02-13 00:00:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CASE) AS  `Movement__balanceEffect`, `Client`.`id`, `Client`.`firstname`, `Clien' at line 1
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Movemen...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Movemen...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Movemen...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Movement), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php(23): Controller->paginate()
+#8 [internal function]: MovementsController->index()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-02-13 00:01:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CASE)) AS  `Movement__balanceEffect`, `Client`.`id`, `Client`.`firstname`, `Clie' at line 1
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Movemen...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Movemen...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Movemen...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Movement), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php(23): Controller->paginate()
+#8 [internal function]: MovementsController->index()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-02-13 00:01:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ENDCASE) AS  `Movement__balanceEffect`, `Client`.`id`, `Client`.`firstname`, `Cl' at line 1
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Movemen...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Movemen...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Movemen...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Movement), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php(23): Controller->paginate()
+#8 [internal function]: MovementsController->index()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-02-13 00:02:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'M' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Movemen...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Movemen...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Movemen...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Movement), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php(23): Controller->paginate()
+#8 [internal function]: MovementsController->index()
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-02-13 00:04:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Movement.balanceEffect' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1436): Model->find('first', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(59): Model->read(NULL, '1')
+#7 [internal function]: ClientsController->view('1')
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-02-13 00:05:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Movement.balanceEffect' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1436): Model->find('first', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(59): Model->read(NULL, '1')
+#7 [internal function]: ClientsController->view('1')
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-02-13 00:37:16 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dmst_test_video.Movements' doesn't exist
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1436): Model->find('first', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(59): Model->read(NULL, '1')
+#7 [internal function]: ClientsController->view('1')
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-02-13 00:37:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Movements.amount' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1436): Model->find('first', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(59): Model->read(NULL, '1')
+#7 [internal function]: ClientsController->view('1')
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-02-13 00:38:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Movements.mov_type' in 'where clause'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1436): Model->find('first', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(59): Model->read(NULL, '1')
+#7 [internal function]: ClientsController->view('1')
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-02-13 02:04:25 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 02:04:29 Error: [MissingActionException] Action MovementsController::charge() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 02:04:34 Error: [MissingActionException] Action MovementsController::return() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 02:05:28 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 02:11:59 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 02:12:19 Error: [MissingActionException] Action MovementsController::charge() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 02:45:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.surnamename' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Client`...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Client), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php(123): Model->find('list')
+#6 [internal function]: MovementsController->charge('1')
+#7 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-02-13 02:59:33 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 03:15:30 Error: [MissingActionException] Action MovementsController::return() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 03:15:36 Error: [NotFoundException] No hi ha cap moviment amb aquest codi
+#0 [internal function]: MovementsController->rentend()
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:16:09 Error: [NotFoundException] No hi ha cap moviment amb aquest codi
+#0 [internal function]: MovementsController->rentend()
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:16:24 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-13 03:18:00 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:19:40 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:20:16 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:21:18 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:21:38 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:22:16 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 03:22:28 Error: [NotFoundException] You only can return based on a rent movement
+#0 [internal function]: MovementsController->rentend('5')
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-13 04:21:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'movement.started' in 'field list'
+#0 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Movemen...', Array)
+#2 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Movemen...', Array, Array)
+#3 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Movemen...', false)
+#4 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(2483): DboSource->read(Object(Movement), Array)
+#5 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1436): Model->find('first', Array)
+#6 /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php(140): Model->read()
+#7 [internal function]: MovementsController->rentend('5')
+#8 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#9 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /home2/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home2/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-02-17 07:45:31 Error: [MissingActionException] Action CopiesController::clients() could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(CopiesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-17 20:23:30 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-17 20:23:56 Error: [MissingActionException] Action MovementsController::rent() could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-18 08:01:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'balance' in 'field list'
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `cl...', Array)
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `cl...')
+#3 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1646): DboSource->create(Object(Client), Array, Array)
+#4 /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(70): Model->save(Array)
+#5 [internal function]: ClientsController->add()
+#6 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#7 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-02-18 08:02:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'balance' in 'field list'
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `cl...', Array)
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `cl...')
+#3 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Model/Model.php(1646): DboSource->create(Object(Client), Array, Array)
+#4 /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/ClientsController.php(70): Model->save(Array)
+#5 [internal function]: ClientsController->add()
+#6 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#7 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-02-18 17:08:15 Error: [NotFoundException] No hi ha cap moviment amb aquest codi
+#0 [internal function]: MovementsController->rentend('2')
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-18 17:15:12 Error: [NotFoundException] No hi ha cap moviment amb aquest codi
+#0 [internal function]: MovementsController->rentend()
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-18 17:30:01 Error: [NotFoundException] No hi ha cap moviment amb aquest codi
+#0 [internal function]: MovementsController->rentend()
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(MovementsController), Array)
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#3 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(MovementsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-02-23 00:59:47 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-23 06:48:14 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-23 07:05:54 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-23 07:30:09 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-23 07:34:31 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-23 07:41:59 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-23 07:57:22 Error: [MissingActionException] Action UsersController::loggedout() could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dmst/public_html/desenvolupaments/dvdclub/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-23 08:22:50 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 /home/dmst/public_html/desenvolupaments/dvdclub/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

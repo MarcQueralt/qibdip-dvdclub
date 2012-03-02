@@ -1,0 +1,792 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-02-27 12:39+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ClientsController.php:60;91;117
+msgid "Invalid client"
+msgstr ""
+
+#: Controller/ClientsController.php:74;95
+msgid "The client has been saved"
+msgstr ""
+
+#: Controller/ClientsController.php:77;98
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:120
+msgid "Client deleted"
+msgstr ""
+
+#: Controller/ClientsController.php:123
+msgid "Client was not deleted"
+msgstr ""
+
+#: Controller/CopiesController.php:58;91;119
+msgid "Invalid copy"
+msgstr ""
+
+#: Controller/CopiesController.php:72;95
+msgid "The copy has been saved"
+msgstr ""
+
+#: Controller/CopiesController.php:75;98
+msgid "The copy could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CopiesController.php:122
+msgid "Copy deleted"
+msgstr ""
+
+#: Controller/CopiesController.php:125
+msgid "Copy was not deleted"
+msgstr ""
+
+#: Controller/FormatsController.php:38;69;95
+msgid "Invalid format"
+msgstr ""
+
+#: Controller/FormatsController.php:52;73
+msgid "The format has been saved"
+msgstr ""
+
+#: Controller/FormatsController.php:55;76
+msgid "The format could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FormatsController.php:98
+msgid "Format deleted"
+msgstr ""
+
+#: Controller/FormatsController.php:101
+msgid "Format was not deleted"
+msgstr ""
+
+#: Controller/MovementsController.php:38;72;101;160
+msgid "Invalid movement"
+msgstr ""
+
+#: Controller/MovementsController.php:52;76;120;140;174
+msgid "The movement has been saved"
+msgstr ""
+
+#: Controller/MovementsController.php:55;79;123;143;177
+msgid "The movement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MovementsController.php:104
+msgid "Movement deleted"
+msgstr ""
+
+#: Controller/MovementsController.php:107
+msgid "Movement was not deleted"
+msgstr ""
+
+#: Controller/MovementsController.php:165
+msgid "You only can return based on a rent movement"
+msgstr ""
+
+#: Controller/MovementsController.php:169
+msgid "You only can return once"
+msgstr ""
+
+#: Controller/MovementsController.php:221;266
+msgid "You must select complete dates"
+msgstr ""
+
+#: Controller/UsersController.php:17
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:36;56;77
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:45;60
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:48;63
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:80
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:83
+msgid "User was not deleted"
+msgstr ""
+
+#: View/Clients/add.ctp:4
+msgid "Add Client"
+msgstr ""
+
+#: View/Clients/add.ctp:19
+#: View/Clients/edit.ctp:20
+#: View/Copies/add.ctp:15
+#: View/Copies/edit.ctp:15
+#: View/Formats/add.ctp:10
+#: View/Formats/edit.ctp:11
+#: View/Movements/add.ctp:16
+#: View/Movements/charge.ctp:13
+#: View/Movements/edit.ctp:17
+#: View/Movements/rent.ctp:15
+#: View/Movements/rentend.ctp:17
+#: View/Users/add.ctp:11
+#: View/Users/edit.ctp:12
+msgid "Submit"
+msgstr ""
+
+#: View/Clients/add.ctp:22
+#: View/Clients/edit.ctp:23
+#: View/Clients/index.ctp:22;58
+#: View/Clients/view.ctp:77;101
+#: View/Copies/add.ctp:18
+#: View/Copies/edit.ctp:18
+#: View/Copies/index.ctp:22;62
+#: View/Copies/view.ctp:57;80
+#: View/Formats/add.ctp:13
+#: View/Formats/edit.ctp:14
+#: View/Formats/index.ctp:10;44
+#: View/Formats/view.ctp:32;53
+#: View/Movements/add.ctp:19
+#: View/Movements/charge.ctp:16
+#: View/Movements/edit.ctp:20
+#: View/Movements/index.ctp:13;70
+#: View/Movements/rent.ctp:18
+#: View/Movements/rentend.ctp:20
+#: View/Movements/view.ctp:65
+#: View/Users/add.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/index.ctp:11;47
+#: View/Users/view.ctp:37
+msgid "Actions"
+msgstr ""
+
+#: View/Clients/add.ctp:25
+#: View/Clients/edit.ctp:27
+#: View/Clients/view.ctp:81
+#: View/Movements/add.ctp:23
+#: View/Movements/charge.ctp:19
+#: View/Movements/edit.ctp:25
+#: View/Movements/index.ctp:73
+#: View/Movements/rent.ctp:21
+#: View/Movements/rentend.ctp:25
+#: View/Movements/view.ctp:71
+msgid "List Clients"
+msgstr ""
+
+#: View/Clients/add.ctp:26
+#: View/Clients/edit.ctp:28
+#: View/Clients/index.ctp:61
+#: View/Clients/view.ctp:83
+#: View/Copies/add.ctp:24
+#: View/Copies/edit.ctp:25
+#: View/Copies/index.ctp:67
+#: View/Copies/view.ctp:65
+#: View/Movements/add.ctp:22
+#: View/Movements/charge.ctp:18
+#: View/Movements/edit.ctp:24
+#: View/Movements/rent.ctp:20
+#: View/Movements/rentend.ctp:24
+#: View/Movements/view.ctp:69
+msgid "List Movements"
+msgstr ""
+
+#: View/Clients/add.ctp:27
+#: View/Clients/edit.ctp:29
+#: View/Clients/index.ctp:62
+#: View/Clients/view.ctp:84;141
+#: View/Copies/add.ctp:25
+#: View/Copies/edit.ctp:26
+#: View/Copies/index.ctp:68
+#: View/Copies/view.ctp:66;104
+#: View/Movements/index.ctp:72
+#: View/Movements/view.ctp:70
+msgid "New Movement"
+msgstr ""
+
+#: View/Clients/edit.ctp:4
+#: View/Clients/view.ctp:79
+msgid "Edit Client"
+msgstr ""
+
+#: View/Clients/edit.ctp:26
+#: View/Clients/index.ctp:37
+#: View/Clients/view.ctp:132
+#: View/Copies/edit.ctp:21
+#: View/Copies/index.ctp:41
+#: View/Copies/view.ctp:95
+#: View/Formats/edit.ctp:17
+#: View/Formats/index.ctp:23
+#: View/Formats/view.ctp:68
+#: View/Movements/edit.ctp:23
+#: View/Movements/index.ctp:49
+#: View/Movements/rentend.ctp:23
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+msgid "Delete"
+msgstr ""
+
+#: View/Clients/edit.ctp:26
+#: View/Clients/index.ctp:37
+#: View/Clients/view.ctp:80;132
+#: View/Copies/edit.ctp:21
+#: View/Copies/index.ctp:41
+#: View/Copies/view.ctp:60;95
+#: View/Formats/edit.ctp:17
+#: View/Formats/index.ctp:23
+#: View/Formats/view.ctp:35;68
+#: View/Movements/edit.ctp:23
+#: View/Movements/index.ctp:49
+#: View/Movements/rentend.ctp:23
+#: View/Movements/view.ctp:68
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:26
+#: View/Users/view.ctp:40
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Clients/index.ctp:2
+#: View/Layouts/default.ctp:46
+msgid "Clients"
+msgstr ""
+
+#: View/Clients/index.ctp:6
+msgid "Client Search"
+msgstr ""
+
+#: View/Clients/index.ctp:9
+#: View/Copies/index.ctp:9
+msgid "Search"
+msgstr ""
+
+#: View/Clients/index.ctp:35
+#: View/Clients/view.ctp:130
+#: View/Copies/index.ctp:39
+#: View/Copies/view.ctp:93
+#: View/Formats/index.ctp:21
+#: View/Formats/view.ctp:66
+#: View/Movements/index.ctp:47
+#: View/Users/index.ctp:24
+msgid "View"
+msgstr ""
+
+#: View/Clients/index.ctp:36
+#: View/Clients/view.ctp:131
+#: View/Copies/index.ctp:40
+#: View/Copies/view.ctp:94
+#: View/Formats/index.ctp:22
+#: View/Formats/view.ctp:67
+#: View/Movements/index.ctp:48
+#: View/Users/index.ctp:25
+msgid "Edit"
+msgstr ""
+
+#: View/Clients/index.ctp:45
+#: View/Copies/index.ctp:49
+#: View/Formats/index.ctp:31
+#: View/Movements/index.ctp:57
+#: View/Users/index.ctp:34
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Clients/index.ctp:51
+#: View/Copies/index.ctp:55
+#: View/Formats/index.ctp:37
+#: View/Movements/index.ctp:63
+#: View/Users/index.ctp:40
+msgid "previous"
+msgstr ""
+
+#: View/Clients/index.ctp:53
+#: View/Copies/index.ctp:57
+#: View/Formats/index.ctp:39
+#: View/Movements/index.ctp:65
+#: View/Users/index.ctp:42
+msgid "next"
+msgstr ""
+
+#: View/Clients/index.ctp:60
+#: View/Clients/view.ctp:82
+#: View/Movements/add.ctp:24
+#: View/Movements/charge.ctp:20
+#: View/Movements/edit.ctp:26
+#: View/Movements/index.ctp:74
+#: View/Movements/rent.ctp:22
+#: View/Movements/rentend.ctp:26
+#: View/Movements/view.ctp:72
+msgid "New Client"
+msgstr ""
+
+#: View/Clients/view.ctp:2
+#: View/Copies/view.ctp:75
+#: View/Movements/reportview.ctp:7
+#: View/Movements/view.ctp:9
+msgid "Client"
+msgstr ""
+
+#: View/Clients/view.ctp:4;94
+#: View/Copies/view.ctp:4;74
+#: View/Formats/view.ctp:4;47
+#: View/Movements/reportview.ctp:6
+#: View/Movements/view.ctp:4
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Clients/view.ctp:9
+msgid "Firstname"
+msgstr ""
+
+#: View/Clients/view.ctp:14
+msgid "Surname"
+msgstr ""
+
+#: View/Clients/view.ctp:19
+msgid "Address"
+msgstr ""
+
+#: View/Clients/view.ctp:24
+msgid "Cp"
+msgstr ""
+
+#: View/Clients/view.ctp:29
+msgid "City"
+msgstr ""
+
+#: View/Clients/view.ctp:34
+msgid "Phone"
+msgstr ""
+
+#: View/Clients/view.ctp:39
+msgid "Mobile"
+msgstr ""
+
+#: View/Clients/view.ctp:44
+msgid "Personal ID"
+msgstr ""
+
+#: View/Clients/view.ctp:49
+#: View/Copies/view.ctp:19
+#: View/Formats/view.ctp:49
+msgid "Active"
+msgstr ""
+
+#: View/Clients/view.ctp:54
+#: View/Movements/view.ctp:47
+msgid "Comments"
+msgstr ""
+
+#: View/Clients/view.ctp:59
+msgid "Birthday"
+msgstr ""
+
+#: View/Clients/view.ctp:64
+#: View/Copies/view.ctp:44
+#: View/Formats/view.ctp:19
+#: View/Movements/view.ctp:52
+#: View/Users/view.ctp:24
+msgid "Created"
+msgstr ""
+
+#: View/Clients/view.ctp:69
+#: View/Copies/view.ctp:49
+#: View/Formats/view.ctp:24
+#: View/Movements/view.ctp:57
+#: View/Users/view.ctp:29
+msgid "Modified"
+msgstr ""
+
+#: View/Clients/view.ctp:80
+msgid "Delete Client"
+msgstr ""
+
+#: View/Clients/view.ctp:85
+msgid "Rent Copy"
+msgstr ""
+
+#: View/Clients/view.ctp:86
+#: View/Movements/charge.ctp:4
+msgid "Charge Money"
+msgstr ""
+
+#: View/Clients/view.ctp:90
+#: View/Copies/view.ctp:70
+msgid "Related Movements"
+msgstr ""
+
+#: View/Clients/view.ctp:95
+msgid "Copy Id"
+msgstr ""
+
+#: View/Clients/view.ctp:96
+#: View/Movements/view.ctp:19
+msgid "Mov Type"
+msgstr ""
+
+#: View/Clients/view.ctp:97
+#: View/Copies/view.ctp:76
+#: View/Movements/reportview.ctp:9
+#: View/Movements/view.ctp:27
+msgid "Amount"
+msgstr ""
+
+#: View/Clients/view.ctp:98
+#: View/Copies/view.ctp:77
+#: View/Movements/reportview.ctp:10
+#: View/Movements/view.ctp:32
+msgid "Started"
+msgstr ""
+
+#: View/Clients/view.ctp:99
+#: View/Copies/view.ctp:78
+#: View/Movements/reportview.ctp:11
+#: View/Movements/view.ctp:37
+msgid "Ended"
+msgstr ""
+
+#: View/Clients/view.ctp:100
+#: View/Copies/view.ctp:79
+#: View/Movements/view.ctp:42
+msgid "Returned"
+msgstr ""
+
+#: View/Clients/view.ctp:111
+#: View/Movements/add.ctp:8
+#: View/Movements/edit.ctp:9
+#: View/Movements/index.ctp:27
+#: View/Movements/view.ctp:22
+msgid "Rental"
+msgstr ""
+
+#: View/Clients/view.ctp:112
+#: View/Movements/add.ctp:8
+#: View/Movements/edit.ctp:9
+#: View/Movements/index.ctp:28
+#: View/Movements/view.ctp:23
+msgid "Money"
+msgstr ""
+
+#: View/Clients/view.ctp:121
+#: View/Copies/index.ctp:32;34
+#: View/Copies/view.ctp:21;26;91
+#: View/Formats/view.ctp:61;62
+#: View/Movements/index.ctp:38
+msgid "Yes"
+msgstr ""
+
+#: View/Clients/view.ctp:123
+msgid "Return"
+msgstr ""
+
+#: View/Copies/add.ctp:4
+msgid "Add Copy"
+msgstr ""
+
+#: View/Copies/add.ctp:21
+#: View/Copies/edit.ctp:22
+#: View/Copies/view.ctp:61
+#: View/Formats/add.ctp:17
+#: View/Formats/edit.ctp:19
+#: View/Formats/index.ctp:47
+#: View/Formats/view.ctp:38
+#: View/Movements/add.ctp:25
+#: View/Movements/charge.ctp:21
+#: View/Movements/edit.ctp:27
+#: View/Movements/index.ctp:75
+#: View/Movements/rent.ctp:23
+#: View/Movements/rentend.ctp:27
+#: View/Movements/view.ctp:73
+msgid "List Copies"
+msgstr ""
+
+#: View/Copies/add.ctp:22
+#: View/Copies/edit.ctp:23
+#: View/Copies/index.ctp:65
+#: View/Copies/view.ctp:63
+#: View/Formats/add.ctp:16
+#: View/Formats/edit.ctp:18
+#: View/Formats/view.ctp:36
+msgid "List Formats"
+msgstr ""
+
+#: View/Copies/add.ctp:23
+#: View/Copies/edit.ctp:24
+#: View/Copies/index.ctp:66
+#: View/Copies/view.ctp:64
+#: View/Formats/index.ctp:46
+#: View/Formats/view.ctp:37
+msgid "New Format"
+msgstr ""
+
+#: View/Copies/edit.ctp:4
+#: View/Copies/view.ctp:59
+msgid "Edit Copy"
+msgstr ""
+
+#: View/Copies/index.ctp:2
+#: View/Layouts/default.ctp:47
+msgid "Copies"
+msgstr ""
+
+#: View/Copies/index.ctp:6
+msgid "Copy Search"
+msgstr ""
+
+#: View/Copies/index.ctp:32;34
+#: View/Copies/view.ctp:21;26;91
+#: View/Formats/view.ctp:61;62
+msgid "No"
+msgstr ""
+
+#: View/Copies/index.ctp:64
+#: View/Copies/view.ctp:62
+#: View/Formats/add.ctp:18
+#: View/Formats/edit.ctp:20
+#: View/Formats/index.ctp:48
+#: View/Formats/view.ctp:39;77
+#: View/Movements/add.ctp:26
+#: View/Movements/charge.ctp:22
+#: View/Movements/edit.ctp:28
+#: View/Movements/index.ctp:76
+#: View/Movements/rent.ctp:24
+#: View/Movements/rentend.ctp:28
+#: View/Movements/view.ctp:74
+msgid "New Copy"
+msgstr ""
+
+#: View/Copies/view.ctp:2
+#: View/Movements/reportview.ctp:8
+#: View/Movements/view.ctp:14
+msgid "Copy"
+msgstr ""
+
+#: View/Copies/view.ctp:9
+#: View/Formats/view.ctp:48
+msgid "Title"
+msgstr ""
+
+#: View/Copies/view.ctp:14
+#: View/Formats/view.ctp:2
+msgid "Format"
+msgstr ""
+
+#: View/Copies/view.ctp:24
+#: View/Formats/view.ctp:50
+msgid "On Sale"
+msgstr ""
+
+#: View/Copies/view.ctp:29
+#: View/Formats/view.ctp:51
+msgid "Adquisition Cost"
+msgstr ""
+
+#: View/Copies/view.ctp:34
+msgid "Total Sales"
+msgstr ""
+
+#: View/Copies/view.ctp:39
+#: View/Formats/view.ctp:52
+msgid "Sale Price"
+msgstr ""
+
+#: View/Copies/view.ctp:60
+msgid "Delete Copy"
+msgstr ""
+
+#: View/Formats/add.ctp:4
+msgid "Add Format"
+msgstr ""
+
+#: View/Formats/edit.ctp:4
+#: View/Formats/view.ctp:34
+msgid "Edit Format"
+msgstr ""
+
+#: View/Formats/index.ctp:2
+#: View/Layouts/default.ctp:48
+msgid "Formats"
+msgstr ""
+
+#: View/Formats/view.ctp:9
+msgid "Description"
+msgstr ""
+
+#: View/Formats/view.ctp:14
+msgid "Daily Rate"
+msgstr ""
+
+#: View/Formats/view.ctp:35
+msgid "Delete Format"
+msgstr ""
+
+#: View/Formats/view.ctp:43
+msgid "Related Copies"
+msgstr ""
+
+#: View/Layouts/default.ctp:49
+#: View/Movements/index.ctp:2
+msgid "Movements"
+msgstr ""
+
+#: View/Layouts/default.ctp:50
+#: View/Movements/reportform.ctp:9
+msgid "Report"
+msgstr ""
+
+#: View/Layouts/default.ctp:51
+msgid "Logout"
+msgstr ""
+
+#: View/Movements/add.ctp:4
+msgid "Add Movement"
+msgstr ""
+
+#: View/Movements/charge.ctp:9
+msgid "Charge date"
+msgstr ""
+
+#: View/Movements/edit.ctp:4
+#: View/Movements/view.ctp:67
+msgid "Edit Movement"
+msgstr ""
+
+#: View/Movements/index.ctp:40
+msgid "Copy Return"
+msgstr ""
+
+#: View/Movements/rent.ctp:4
+msgid "Movie rental"
+msgstr ""
+
+#: View/Movements/rentend.ctp:4
+msgid "Return Register"
+msgstr ""
+
+#: View/Movements/reportform.ctp:2
+#: View/Movements/reportview.ctp:3
+msgid "Rental Report"
+msgstr ""
+
+#: View/Movements/reportform.ctp:6
+msgid "Date Selection"
+msgstr ""
+
+#: View/Movements/reportform.ctp:7
+msgid "From date"
+msgstr ""
+
+#: View/Movements/reportform.ctp:8
+msgid "To date"
+msgstr ""
+
+#: View/Movements/view.ctp:2
+msgid "Movement"
+msgstr ""
+
+#: View/Movements/view.ctp:68
+msgid "Delete Movement"
+msgstr ""
+
+#: View/Pages/home.ctp:23
+msgid "Reconfigure this page by updating file:"
+msgstr ""
+
+#: View/Pages/home.ctp:23
+msgid "set router value:"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/add.ctp:17
+#: View/Users/edit.ctp:19
+#: View/Users/view.ctp:41
+msgid "List Users"
+msgstr ""
+
+#: View/Users/edit.ctp:4
+#: View/Users/view.ctp:39
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:49
+#: View/Users/view.ctp:42
+msgid "New User"
+msgstr ""
+
+#: View/Users/login.ctp:5
+msgid "Please enter your username and password"
+msgstr ""
+
+#: View/Users/login.ctp:11
+msgid "Login"
+msgstr ""
+
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Users/view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: View/Users/view.ctp:14
+msgid "Password"
+msgstr ""
+
+#: View/Users/view.ctp:19
+msgid "Role"
+msgstr ""
+
+#: View/Users/view.ctp:40
+msgid "Delete User"
+msgstr ""
+
+#: Model/Client.php:validation for field surname
+#: Model/Copy.php:validation for field title
+#: Model/Format.php:validation for field description
+msgid "notempty"
+msgstr ""
+
+#: Model/Copy.php:validation for field format_id
+#: Model/Format.php:validation for field daily_rate
+#: Model/Movement.php:validation for field client_id;validation for field amount
+msgid "numeric"
+msgstr ""
+
+#: Model/Movement.php:validation for field mov_type
+msgid "inlist"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "A username is required"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr ""
+

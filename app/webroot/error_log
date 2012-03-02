@@ -1,0 +1,40 @@
+[12-Feb-2012 21:45:05] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Formats/view.ctp on line 61
+[12-Feb-2012 22:09:03] PHP Parse error:  syntax error, unexpected '(' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Copies/view.ctp on line 94
+[12-Feb-2012 23:22:30] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Model/Client.php on line 15
+[13-Feb-2012 00:36:53] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Model/Client.php on line 25
+[13-Feb-2012 01:20:15] PHP Parse error:  syntax error, unexpected '&' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Layouts/default.ctp on line 36
+[13-Feb-2012 01:20:39] PHP Fatal error:  Call to a member function link() on a non-object in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Layouts/default.ctp on line 36
+[13-Feb-2012 01:25:38] PHP Fatal error:  Call to a member function link() on a non-object in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Layouts/default.ctp on line 36
+[13-Feb-2012 01:51:16] PHP Parse error:  syntax error, unexpected ':' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Clients/view.ctp on line 115
+[13-Feb-2012 01:52:38] PHP Parse error:  syntax error, unexpected ':' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Clients/view.ctp on line 115
+[13-Feb-2012 02:38:58] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Clients/view.ctp on line 81
+[13-Feb-2012 02:39:21] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/View/Clients/view.ctp on line 81
+[13-Feb-2012 02:44:57] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Model/Client.php on line 26
+[13-Feb-2012 03:09:40] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_STRING in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php on line 134
+[13-Feb-2012 03:34:01] PHP Fatal error:  Cannot use object of type Movement as array in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php on line 139
+[13-Feb-2012 03:37:21] PHP Fatal error:  Call to undefined method MovementsController::read() in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php on line 139
+[13-Feb-2012 04:12:03] PHP Fatal error:  Cannot use object of type Movement as array in /home2/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php on line 146
+[17-Feb-2012 06:58:00 UTC] PHP Fatal error:  Can't use function return value in write context in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Layouts/default.ctp on line 19
+[17-Feb-2012 06:58:11 UTC] PHP Fatal error:  Can't use function return value in write context in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Layouts/default.ctp on line 19
+[17-Feb-2012 07:12:53 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Pages/home.ctp on line 23
+[17-Feb-2012 07:13:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Pages/home.ctp on line 23
+[17-Feb-2012 07:14:14 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/dmst/public_html/desenvolupaments/dvdclub/app/Config/routes.php on line 31
+[18-Feb-2012 16:10:53 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Movements/rent.ctp on line 6
+[18-Feb-2012 16:11:28 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Movements/rent.ctp on line 7
+[22-Feb-2012 20:05:41 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 10
+[22-Feb-2012 20:22:33 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 10
+[22-Feb-2012 20:24:19 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 10
+[22-Feb-2012 20:24:30 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 10
+[22-Feb-2012 23:59:54 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 6
+[23-Feb-2012 00:02:30 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 6
+[23-Feb-2012 00:08:38 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 5
+[23-Feb-2012 00:10:07 UTC] PHP Parse error:  syntax error, unexpected $end in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:06:00 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:06:39 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:16:01 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:16:06 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:17:40 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:17:58 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 8
+[23-Feb-2012 06:30:47 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 7
+[23-Feb-2012 06:31:02 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 7
+[23-Feb-2012 06:33:19 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 7

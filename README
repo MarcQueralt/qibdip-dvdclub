@@ -1,0 +1,17 @@
+DVDClub - Rental DVD Software
+
+qibdip 2012 - http://qibdip.com
+
+License GPL
+
+=Change Log=
+
+==v1.0 February 2012==
+
+Initial Release
+
+=Road Map=
+
+Pending features:
+* Rental not allowed if DVD is yet Rented.
+* Rental not allowed for sold DVD.
