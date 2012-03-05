@@ -118,7 +118,7 @@ class MovementsController extends AppController {
             $this->Movement->create();
             if ($this->Movement->save($this->request->data)) {
                 $this->Session->setFlash(__('The movement has been saved'));
-                $this->redirect(array('action' => 'index'));
+                $this->redirect(array('controller'=>'clients','action' => 'view',$this->data['Movement']['client_id']));
             } else {
                 $this->Session->setFlash(__('The movement could not be saved. Please, try again.'));
             }
@@ -136,9 +136,12 @@ class MovementsController extends AppController {
     public function rent() {
         if ($this->request->is('post')) {
             $this->Movement->create();
+            if(0==$this->request->data['Movement']['amount']):
+                unset($this->request->data['Movement']['amount']);
+            endif;
             if ($this->Movement->save($this->request->data)) {
                 $this->Session->setFlash(__('The movement has been saved'));
-                $this->redirect(array('action' => 'index'));
+                $this->redirect(array('controller'=>'clients','action' => 'view',$this->data['Movement']['client_id']));
             } else {
                 $this->Session->setFlash(__('The movement could not be saved. Please, try again.'));
             }
@@ -159,25 +162,28 @@ class MovementsController extends AppController {
         if (!$this->Movement->exists()) {
             throw new NotFoundException(__('Invalid movement'));
         }
-        $this->Movement->recursive=2;
-        $this->Movement->read();
-        if ('C'!=$this->Movement->data['Movement']['mov_type']) {
-            $this->Session->setFlash(__('You only can return based on a rent movement'));
-            $this->redirect(array('action'=>'index'));
-        }
-        if ($this->Movement->data['Movement']['returned']) {
-            $this->Session->setFlash(__('You only can return once'));
-            $this->redirect(array('action'=>'index'));
-        }
         if ($this->request->is('post') || $this->request->is('put')) {
             if ($this->Movement->save($this->request->data)) {
                 $this->Session->setFlash(__('The movement has been saved'));
-                $this->redirect(array('action' => 'index'));
+                $this->redirect(array('controller'=>'clients','action' => 'view',$this->request->data['Movement']['client_id']));
             } else {
                 $this->Session->setFlash(__('The movement could not be saved. Please, try again.'));
             }
         } else {
+            $this->Movement->recursive=1;
             $this->request->data = $this->Movement->read(null, $id);
+            if ('C'!=$this->request->data['Movement']['mov_type']) {
+                $this->Session->setFlash(__('You only can return based on a rent movement'));
+                $this->redirect(array('controller'=>'clients','action' => 'view',$this->Movement->data['Movement']['client_id']));
+            }
+            if ($this->request->data['Movement']['returned']) {
+                $this->Session->setFlash(__('You only can return once'));
+                $this->redirect(array('controller'=>'clients','action' => 'view',$this->Movement->data['Movement']['client_id']));
+            }
+            if('0000-00-00'==$this->request->data['Movement']['ended']):
+                    $this->request->data['Movement']['ended']=$this->request->data['Movement']['estimatedReturnDate'];
+            endif;
+            $this->request->data['Movement']['returned']=TRUE;
         }
         $clients = $this->Movement->Client->find('list');
         $copies = $this->Movement->Copy->find('list');
@@ -271,12 +277,12 @@ class MovementsController extends AppController {
         $movements=$this->Movement->find('all',
                 array(
                 'conditions'=>array(
-                        'Movement.ended >='=>date($this->passedArgs['Report.minDate']['year'].'-'.$this->passedArgs['Report.minDate']['month'].'-'.$this->passedArgs['Report.minDate']['day']),
-                        'Movement.ended <='=>date($this->passedArgs['Report.maxDate']['year'].'-'.$this->passedArgs['Report.maxDate']['month'].'-'.$this->passedArgs['Report.maxDate']['day']),
-                        'Movement.mov_type'=>'C',
+                        'Movement.fiscalDate >='=>date($this->passedArgs['Report.minDate']['year'].'-'.$this->passedArgs['Report.minDate']['month'].'-'.$this->passedArgs['Report.minDate']['day']),
+                        'Movement.fiscalDate <='=>date($this->passedArgs['Report.maxDate']['year'].'-'.$this->passedArgs['Report.maxDate']['month'].'-'.$this->passedArgs['Report.maxDate']['day']),
+                        'Movement.fiscalMovement'=>TRUE,
                 ),
                 'order'=>array(
-                        'Movement.ended',
+                        'Movement.fiscalDate',
                         'Movement.id'
                 ),
         ));

@@ -5,7 +5,7 @@
         <fieldset>
             <legend><?php __('Client Search');?></legend>
             <?php echo $this->Form->input('Search.id', array('div' => false, 'default' => ((isset($this->passedArgs['Search.id']))?$this->passedArgs['Search.id']:'')));?>
-            <?php echo $this->Form->input('Search.fullname', array('div' => false, 'default' => ((isset($this->passedArgs['Search.fullname']))?$this->passedArgs['Search.fullname']:'')));?>
+            <?php echo $this->Form->input('Search.fullname', array('label'=>__('Full Name'),'div' => false, 'default' => ((isset($this->passedArgs['Search.fullname']))?$this->passedArgs['Search.fullname']:'')));?>
             <?php echo $this->Form->submit(__('Search', true), array('div' => false));?>
         </fieldset>
         <?php echo $this->Form->end();?>
@@ -58,7 +58,5 @@
     <h3><?php echo __('Actions'); ?></h3>
     <ul>
         <li><?php echo $this->Html->link(__('New Client'), array('action' => 'add')); ?></li>
-        <li><?php echo $this->Html->link(__('List Movements'), array('controller' => 'movements', 'action' => 'index')); ?> </li>
-        <li><?php echo $this->Html->link(__('New Movement'), array('controller' => 'movements', 'action' => 'add')); ?> </li>
     </ul>
 </div>

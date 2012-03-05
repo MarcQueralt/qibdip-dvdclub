@@ -80,8 +80,6 @@
         <li><?php echo $this->Form->postLink(__('Delete Client'), array('action' => 'delete', $client['Client']['id']), null, __('Are you sure you want to delete # %s?', $client['Client']['id'])); ?> </li>
         <li><?php echo $this->Html->link(__('List Clients'), array('action' => 'index')); ?> </li>
         <li><?php echo $this->Html->link(__('New Client'), array('action' => 'add')); ?> </li>
-        <li><?php echo $this->Html->link(__('List Movements'), array('controller' => 'movements', 'action' => 'index')); ?> </li>
-        <li><?php echo $this->Html->link(__('New Movement'), array('controller' => 'movements', 'action' => 'add')); ?> </li>
         <li><?php echo $this->Html->link(__('Rent Copy'), array('controller' => 'movements', 'action' => 'rent',$client['Client']['id'])); ?> </li>
         <li><?php echo $this->Html->link(__('Charge Money'), array('controller' => 'movements', 'action' => 'charge',$client['Client']['id'])); ?> </li>
     </ul>
@@ -92,7 +90,7 @@
     <table cellpadding = "0" cellspacing = "0">
         <tr>
             <th><?php echo __('Id'); ?></th>
-            <th><?php echo __('Copy Id'); ?></th>
+            <th><?php echo __('Copy'); ?></th>
             <th><?php echo __('Mov Type'); ?></th>
             <th><?php echo __('Amount'); ?></th>
             <th><?php echo __('Started'); ?></th>
@@ -105,7 +103,7 @@
             foreach ($client['Movement'] as $movement): ?>
         <tr>
             <td><?php echo $movement['id'];?></td>
-            <td><?php echo $movement['copy_id'];?></td>
+            <td><?php echo isset($movement['Copy']['copy_complete_name'])?$movement['Copy']['copy_complete_name']:'';?></td>
             <td>
                         <?php
                         echo 'C'==h($movement['mov_type'])?__('Rental'):'';
@@ -113,14 +111,14 @@
                         ?>
             </td>
             <td class="number"><?php echo $movement['amount'];?></td>
-            <td><?php echo $movement['started'];?></td>
-            <td><?php echo $movement['ended'];?></td>
+            <td><?php echo isset($movement['started'])?date('d-m-Y',strtotime($movement['started'])):'';?></td>
+            <td><?php echo ('0000-00-00'==$movement['ended'])?'':date('d-m-Y',strtotime($movement['ended']));?></td>
             <td class="actions">
                         <?php
                         if($movement['returned']):
                             echo __('Yes');
                         elseif('C'==$movement['mov_type']):
-                            echo $this->Html->link(__('Return'), array('controller' => 'movements', 'action' => 'rentend', $movement['id']));
+                            echo $this->Html->link(__('Copy Return'), array('controller' => 'movements', 'action' => 'rentend', $movement['id']));
                         else:
                             echo '&nbsp;';
                         endif;
@@ -135,10 +133,4 @@
             <?php endforeach; ?>
     </table>
     <?php endif; ?>
-
-    <div class="actions">
-        <ul>
-            <li><?php echo $this->Html->link(__('New Movement'), array('controller' => 'movements', 'action' => 'add'));?> </li>
-        </ul>
-    </div>
 </div>

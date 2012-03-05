@@ -15,6 +15,9 @@
 <div class="actions">
     <h3><?php echo __('Actions'); ?></h3>
     <ul>
+        <?php if(isset($this->passedArgs[0])): ?>
+        <li><?php echo $this->Html->link(__('Back to Client'), array('controller' => 'clients', 'action' => 'view',$this->passedArgs[0]));?> </li>
+        <?php endif; ?>
         <li><?php echo $this->Html->link(__('List Movements'), array('action' => 'index'));?></li>
         <li><?php echo $this->Html->link(__('List Clients'), array('controller' => 'clients', 'action' => 'index')); ?> </li>
         <li><?php echo $this->Html->link(__('New Client'), array('controller' => 'clients', 'action' => 'add')); ?> </li>

@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qibdip dvdClub\n"
-"POT-Creation-Date: 2012-02-27 12:17+0100\n"
-"PO-Revision-Date: 2012-02-27 12:19+0100\n"
+"POT-Creation-Date: 2012-03-05 07:29+0100\n"
+"PO-Revision-Date: 2012-03-05 07:31+0100\n"
 "Last-Translator: marc <marc@qibdip.com>\n"
 "Language-Team: qibdip <info@qibdip.com>\n"
 "MIME-Version: 1.0\n"
@@ -14,23 +14,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 "X-Poedit-Language: Catalan\n"
 
-#: Controller/ClientsController.php:60;91;117
+#: Controller/ClientsController.php:61;92;118
 msgid "Invalid client"
 msgstr "No hi ha cap client amb aquest codi"
 
-#: Controller/ClientsController.php:74;95
+#: Controller/ClientsController.php:75;96
 msgid "The client has been saved"
 msgstr "S'ha desat el client"
 
-#: Controller/ClientsController.php:77;98
+#: Controller/ClientsController.php:78;99
 msgid "The client could not be saved. Please, try again."
 msgstr "No es pot desar el client. Corregeix els errors i torna-ho a intentar."
 
-#: Controller/ClientsController.php:120
+#: Controller/ClientsController.php:121
 msgid "Client deleted"
 msgstr "S'ha esborrat el client"
 
-#: Controller/ClientsController.php:123
+#: Controller/ClientsController.php:124
 msgid "Client was not deleted"
 msgstr "No es pot esborrar el format"
 
@@ -74,15 +74,15 @@ msgstr "S'ha eliminat el format"
 msgid "Format was not deleted"
 msgstr "No es pot eliminar el format"
 
-#: Controller/MovementsController.php:38;72;101;160
+#: Controller/MovementsController.php:38;72;101;163
 msgid "Invalid movement"
 msgstr "No hi ha cap moviment amb aquest codi"
 
-#: Controller/MovementsController.php:52;76;120;140;174
+#: Controller/MovementsController.php:52;76;120;143;167
 msgid "The movement has been saved"
 msgstr "S'ha desat el moviment"
 
-#: Controller/MovementsController.php:55;79;123;143;177
+#: Controller/MovementsController.php:55;79;123;146;170
 msgid "The movement could not be saved. Please, try again."
 msgstr "No es pot desar el moviment. Corregeix els errors i torna-ho a intentar."
 
@@ -94,15 +94,15 @@ msgstr "S'ha eliminat el moviment"
 msgid "Movement was not deleted"
 msgstr "No es pot eliminar el format"
 
-#: Controller/MovementsController.php:165
+#: Controller/MovementsController.php:176
 msgid "You only can return based on a rent movement"
 msgstr "Sols es pot fer la devolució d'un lloguer"
 
-#: Controller/MovementsController.php:169
+#: Controller/MovementsController.php:180
 msgid "You only can return once"
 msgstr "Sols es pot tornar el mateix lloguer una única vegada"
 
-#: Controller/MovementsController.php:221;266
+#: Controller/MovementsController.php:227;272
 msgid "You must select complete dates"
 msgstr "Cal seleccionar dates completes"
 
@@ -134,114 +134,6 @@ msgstr "No es pot esborrar l'usuari"
 msgid "Add Client"
 msgstr "Afegir client"
 
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "January"
-msgstr "Gener"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "February"
-msgstr "Febrer"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "March"
-msgstr "Març"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "April"
-msgstr "Abril"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "May"
-msgstr "Maig"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "June"
-msgstr "Juny"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "July"
-msgstr "Juliol"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "August"
-msgstr "Agost"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "September"
-msgstr "Setembre"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "October"
-msgstr "Octubre"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "November"
-msgstr "Novembre"
-
-#: View/Clients/add.ctp:16
-#: View/Movements/add.ctp:10;11
-#: View/Movements/charge.ctp:9
-#: View/Movements/edit.ctp:11;12
-#: View/Movements/rentend.ctp:11;12
-#: View/Movements/reportform.ctp:7;8
-msgid "December"
-msgstr "Desembre"
-
 #: View/Clients/add.ctp:19
 #: View/Clients/edit.ctp:20
 #: View/Copies/add.ctp:15
@@ -252,7 +144,7 @@ msgstr "Desembre"
 #: View/Movements/charge.ctp:13
 #: View/Movements/edit.ctp:17
 #: View/Movements/rent.ctp:15
-#: View/Movements/rentend.ctp:17
+#: View/Movements/rentend.ctp:18
 #: View/Users/add.ctp:11
 #: View/Users/edit.ctp:12
 msgid "Submit"
@@ -261,11 +153,11 @@ msgstr "Desar"
 #: View/Clients/add.ctp:22
 #: View/Clients/edit.ctp:23
 #: View/Clients/index.ctp:22;58
-#: View/Clients/view.ctp:77;101
+#: View/Clients/view.ctp:77;99
 #: View/Copies/add.ctp:18
 #: View/Copies/edit.ctp:18
 #: View/Copies/index.ctp:22;62
-#: View/Copies/view.ctp:57;80
+#: View/Copies/view.ctp:57;78
 #: View/Formats/add.ctp:13
 #: View/Formats/edit.ctp:14
 #: View/Formats/index.ctp:10;44
@@ -275,7 +167,7 @@ msgstr "Desar"
 #: View/Movements/edit.ctp:20
 #: View/Movements/index.ctp:13;70
 #: View/Movements/rent.ctp:18
-#: View/Movements/rentend.ctp:20
+#: View/Movements/rentend.ctp:21
 #: View/Movements/view.ctp:65
 #: View/Users/add.ctp:14
 #: View/Users/edit.ctp:15
@@ -284,83 +176,50 @@ msgstr "Desar"
 msgid "Actions"
 msgstr "Accions"
 
-#: View/Clients/add.ctp:25
-#: View/Clients/edit.ctp:27
+#: View/Clients/add.ctp:24
+#: View/Clients/edit.ctp:26
 #: View/Clients/view.ctp:81
 #: View/Movements/add.ctp:23
-#: View/Movements/charge.ctp:19
+#: View/Movements/charge.ctp:22
 #: View/Movements/edit.ctp:25
-#: View/Movements/index.ctp:73
-#: View/Movements/rent.ctp:21
-#: View/Movements/rentend.ctp:25
+#: View/Movements/index.ctp:72
+#: View/Movements/rent.ctp:24
 #: View/Movements/view.ctp:71
 msgid "List Clients"
 msgstr "Llista de clients"
-
-#: View/Clients/add.ctp:26
-#: View/Clients/edit.ctp:28
-#: View/Clients/index.ctp:61
-#: View/Clients/view.ctp:83
-#: View/Copies/add.ctp:24
-#: View/Copies/edit.ctp:25
-#: View/Copies/index.ctp:67
-#: View/Copies/view.ctp:65
-#: View/Movements/add.ctp:22
-#: View/Movements/charge.ctp:18
-#: View/Movements/edit.ctp:24
-#: View/Movements/rent.ctp:20
-#: View/Movements/rentend.ctp:24
-#: View/Movements/view.ctp:69
-msgid "List Movements"
-msgstr "Llista de moviments"
-
-#: View/Clients/add.ctp:27
-#: View/Clients/edit.ctp:29
-#: View/Clients/index.ctp:62
-#: View/Clients/view.ctp:84;141
-#: View/Copies/add.ctp:25
-#: View/Copies/edit.ctp:26
-#: View/Copies/index.ctp:68
-#: View/Copies/view.ctp:66;104
-#: View/Movements/index.ctp:72
-#: View/Movements/view.ctp:70
-msgid "New Movement"
-msgstr "Nou moviment"
 
 #: View/Clients/edit.ctp:4
 #: View/Clients/view.ctp:79
 msgid "Edit Client"
 msgstr "Modificar el client"
 
-#: View/Clients/edit.ctp:26
+#: View/Clients/edit.ctp:25
 #: View/Clients/index.ctp:37
-#: View/Clients/view.ctp:132
-#: View/Copies/edit.ctp:21
+#: View/Clients/view.ctp:130
+#: View/Copies/edit.ctp:20
 #: View/Copies/index.ctp:41
-#: View/Copies/view.ctp:95
-#: View/Formats/edit.ctp:17
+#: View/Copies/view.ctp:93
+#: View/Formats/edit.ctp:16
 #: View/Formats/index.ctp:23
 #: View/Formats/view.ctp:68
 #: View/Movements/edit.ctp:23
 #: View/Movements/index.ctp:49
-#: View/Movements/rentend.ctp:23
 #: View/Users/edit.ctp:18
 #: View/Users/index.ctp:26
 msgid "Delete"
 msgstr "Eliminar"
 
-#: View/Clients/edit.ctp:26
+#: View/Clients/edit.ctp:25
 #: View/Clients/index.ctp:37
-#: View/Clients/view.ctp:80;132
-#: View/Copies/edit.ctp:21
+#: View/Clients/view.ctp:80;130
+#: View/Copies/edit.ctp:20
 #: View/Copies/index.ctp:41
-#: View/Copies/view.ctp:60;95
-#: View/Formats/edit.ctp:17
+#: View/Copies/view.ctp:60;93
+#: View/Formats/edit.ctp:16
 #: View/Formats/index.ctp:23
 #: View/Formats/view.ctp:35;68
 #: View/Movements/edit.ctp:23
 #: View/Movements/index.ctp:49
-#: View/Movements/rentend.ctp:23
 #: View/Movements/view.ctp:68
 #: View/Users/edit.ctp:18
 #: View/Users/index.ctp:26
@@ -377,15 +236,19 @@ msgstr "Clients"
 msgid "Client Search"
 msgstr "Buscar client"
 
+#: View/Clients/index.ctp:8
+msgid "Full Name"
+msgstr "Nom complet"
+
 #: View/Clients/index.ctp:9
 #: View/Copies/index.ctp:9
 msgid "Search"
 msgstr "Cercar"
 
 #: View/Clients/index.ctp:35
-#: View/Clients/view.ctp:130
+#: View/Clients/view.ctp:128
 #: View/Copies/index.ctp:39
-#: View/Copies/view.ctp:93
+#: View/Copies/view.ctp:91
 #: View/Formats/index.ctp:21
 #: View/Formats/view.ctp:66
 #: View/Movements/index.ctp:47
@@ -394,9 +257,9 @@ msgid "View"
 msgstr "Veure"
 
 #: View/Clients/index.ctp:36
-#: View/Clients/view.ctp:131
+#: View/Clients/view.ctp:129
 #: View/Copies/index.ctp:40
-#: View/Copies/view.ctp:94
+#: View/Copies/view.ctp:92
 #: View/Formats/index.ctp:22
 #: View/Formats/view.ctp:67
 #: View/Movements/index.ctp:48
@@ -431,26 +294,24 @@ msgstr "següent"
 #: View/Clients/index.ctp:60
 #: View/Clients/view.ctp:82
 #: View/Movements/add.ctp:24
-#: View/Movements/charge.ctp:20
+#: View/Movements/charge.ctp:23
 #: View/Movements/edit.ctp:26
-#: View/Movements/index.ctp:74
-#: View/Movements/rent.ctp:22
-#: View/Movements/rentend.ctp:26
+#: View/Movements/index.ctp:73
+#: View/Movements/rent.ctp:25
 #: View/Movements/view.ctp:72
 msgid "New Client"
 msgstr "Nou client"
 
 #: View/Clients/view.ctp:2
-#: View/Copies/view.ctp:75
-#: View/Movements/reportview.ctp:7
+#: View/Copies/view.ctp:73
+#: View/Movements/reportview.ctp:8
 #: View/Movements/view.ctp:9
 msgid "Client"
 msgstr "Client"
 
-#: View/Clients/view.ctp:4;94
-#: View/Copies/view.ctp:4;74
+#: View/Clients/view.ctp:4;92
+#: View/Copies/view.ctp:4;72
 #: View/Formats/view.ctp:4;47
-#: View/Movements/reportview.ctp:6
 #: View/Movements/view.ctp:4
 #: View/Users/view.ctp:4
 msgid "Id"
@@ -523,57 +384,57 @@ msgstr "Modificació"
 msgid "Delete Client"
 msgstr "Esborrar client"
 
-#: View/Clients/view.ctp:85
+#: View/Clients/view.ctp:83
 msgid "Rent Copy"
 msgstr "Llogar disc"
 
-#: View/Clients/view.ctp:86
+#: View/Clients/view.ctp:84
 #: View/Movements/charge.ctp:4
 msgid "Charge Money"
 msgstr "Carregar saldo"
 
-#: View/Clients/view.ctp:90
-#: View/Copies/view.ctp:70
+#: View/Clients/view.ctp:88
+#: View/Copies/view.ctp:68
 msgid "Related Movements"
 msgstr "Moviments relacionats"
 
-#: View/Clients/view.ctp:95
-msgid "Copy Id"
-msgstr "Codi de disc"
+#: View/Clients/view.ctp:93
+#: View/Copies/view.ctp:2
+#: View/Movements/view.ctp:14
+msgid "Copy"
+msgstr "Disc"
 
-#: View/Clients/view.ctp:96
+#: View/Clients/view.ctp:94
 #: View/Movements/view.ctp:19
 msgid "Mov Type"
 msgstr "Tipus de moviment"
 
-#: View/Clients/view.ctp:97
-#: View/Copies/view.ctp:76
+#: View/Clients/view.ctp:95
+#: View/Copies/view.ctp:74
 #: View/Movements/reportview.ctp:9
 #: View/Movements/view.ctp:27
 msgid "Amount"
 msgstr "Import"
 
-#: View/Clients/view.ctp:98
-#: View/Copies/view.ctp:77
-#: View/Movements/reportview.ctp:10
+#: View/Clients/view.ctp:96
+#: View/Copies/view.ctp:75
 #: View/Movements/view.ctp:32
 msgid "Started"
 msgstr "Inici"
 
-#: View/Clients/view.ctp:99
-#: View/Copies/view.ctp:78
-#: View/Movements/reportview.ctp:11
+#: View/Clients/view.ctp:97
+#: View/Copies/view.ctp:76
 #: View/Movements/view.ctp:37
 msgid "Ended"
 msgstr "Final"
 
-#: View/Clients/view.ctp:100
-#: View/Copies/view.ctp:79
+#: View/Clients/view.ctp:98
+#: View/Copies/view.ctp:77
 #: View/Movements/view.ctp:42
 msgid "Returned"
 msgstr "Retornat"
 
-#: View/Clients/view.ctp:111
+#: View/Clients/view.ctp:109
 #: View/Movements/add.ctp:8
 #: View/Movements/edit.ctp:9
 #: View/Movements/index.ctp:27
@@ -581,7 +442,7 @@ msgstr "Retornat"
 msgid "Rental"
 msgstr "Lloguer"
 
-#: View/Clients/view.ctp:112
+#: View/Clients/view.ctp:110
 #: View/Movements/add.ctp:8
 #: View/Movements/edit.ctp:9
 #: View/Movements/index.ctp:28
@@ -589,51 +450,51 @@ msgstr "Lloguer"
 msgid "Money"
 msgstr "Saldo"
 
-#: View/Clients/view.ctp:121
+#: View/Clients/view.ctp:119
 #: View/Copies/index.ctp:32;34
-#: View/Copies/view.ctp:21;26;91
+#: View/Copies/view.ctp:21;26;89
 #: View/Formats/view.ctp:61;62
 #: View/Movements/index.ctp:38
 msgid "Yes"
 msgstr "Sí"
 
-#: View/Clients/view.ctp:123
-msgid "Return"
-msgstr "Retornat"
+#: View/Clients/view.ctp:121
+#: View/Movements/index.ctp:40
+msgid "Copy Return"
+msgstr "Retornar"
 
 #: View/Copies/add.ctp:4
 msgid "Add Copy"
 msgstr "Afegir disc"
 
-#: View/Copies/add.ctp:21
-#: View/Copies/edit.ctp:22
+#: View/Copies/add.ctp:20
+#: View/Copies/edit.ctp:21
 #: View/Copies/view.ctp:61
-#: View/Formats/add.ctp:17
-#: View/Formats/edit.ctp:19
+#: View/Formats/add.ctp:16
+#: View/Formats/edit.ctp:18
 #: View/Formats/index.ctp:47
 #: View/Formats/view.ctp:38
 #: View/Movements/add.ctp:25
-#: View/Movements/charge.ctp:21
+#: View/Movements/charge.ctp:24
 #: View/Movements/edit.ctp:27
-#: View/Movements/index.ctp:75
-#: View/Movements/rent.ctp:23
-#: View/Movements/rentend.ctp:27
+#: View/Movements/index.ctp:74
+#: View/Movements/rent.ctp:26
 #: View/Movements/view.ctp:73
 msgid "List Copies"
 msgstr "Llista de discs"
 
-#: View/Copies/add.ctp:22
-#: View/Copies/edit.ctp:23
+#: View/Copies/add.ctp:21
+#: View/Copies/edit.ctp:22
 #: View/Copies/index.ctp:65
 #: View/Copies/view.ctp:63
-#: View/Formats/add.ctp:16
-#: View/Formats/edit.ctp:18
+#: View/Formats/add.ctp:15
+#: View/Formats/edit.ctp:17
 #: View/Formats/view.ctp:36
 msgid "List Formats"
 msgstr "Llista de formats"
 
-#: View/Copies/add.ctp:23
-#: View/Copies/edit.ctp:24
+#: View/Copies/add.ctp:22
+#: View/Copies/edit.ctp:23
 #: View/Copies/index.ctp:66
 #: View/Copies/view.ctp:64
 #: View/Formats/index.ctp:46
@@ -656,32 +517,25 @@ msgid "Copy Search"
 msgstr "Buscar disc"
 
 #: View/Copies/index.ctp:32;34
-#: View/Copies/view.ctp:21;26;91
+#: View/Copies/view.ctp:21;26;89
 #: View/Formats/view.ctp:61;62
 msgid "No"
 msgstr "No"
 
 #: View/Copies/index.ctp:64
 #: View/Copies/view.ctp:62
-#: View/Formats/add.ctp:18
-#: View/Formats/edit.ctp:20
+#: View/Formats/add.ctp:17
+#: View/Formats/edit.ctp:19
 #: View/Formats/index.ctp:48
 #: View/Formats/view.ctp:39;77
 #: View/Movements/add.ctp:26
-#: View/Movements/charge.ctp:22
+#: View/Movements/charge.ctp:25
 #: View/Movements/edit.ctp:28
-#: View/Movements/index.ctp:76
-#: View/Movements/rent.ctp:24
-#: View/Movements/rentend.ctp:28
+#: View/Movements/index.ctp:75
+#: View/Movements/rent.ctp:27
 #: View/Movements/view.ctp:74
 msgid "New Copy"
 msgstr "Nou disc"
-
-#: View/Copies/view.ctp:2
-#: View/Movements/reportview.ctp:8
-#: View/Movements/view.ctp:14
-msgid "Copy"
-msgstr "Disc"
 
 #: View/Copies/view.ctp:9
 #: View/Formats/view.ctp:48
@@ -715,6 +569,11 @@ msgstr "Preu de venda"
 #: View/Copies/view.ctp:60
 msgid "Delete Copy"
 msgstr "Eliminar disc"
+
+#: View/Copies/view.ctp:102
+#: View/Movements/view.ctp:70
+msgid "New Movement"
+msgstr "Nou moviment"
 
 #: View/Formats/add.ctp:4
 msgid "Add Format"
@@ -764,22 +623,36 @@ msgstr "Desconnectar"
 msgid "Add Movement"
 msgstr "Afegir moviment"
 
+#: View/Movements/add.ctp:22
+#: View/Movements/charge.ctp:21
+#: View/Movements/edit.ctp:24
+#: View/Movements/rent.ctp:23
+#: View/Movements/view.ctp:69
+msgid "List Movements"
+msgstr "Llista de moviments"
+
 #: View/Movements/charge.ctp:9
 msgid "Charge date"
 msgstr "Data de càrrega"
+
+#: View/Movements/charge.ctp:19
+#: View/Movements/rent.ctp:21
+#: View/Movements/rentend.ctp:23
+msgid "Back to Client"
+msgstr "Tornar al Client"
 
 #: View/Movements/edit.ctp:4
 #: View/Movements/view.ctp:67
 msgid "Edit Movement"
 msgstr "Modificar moviment"
 
-#: View/Movements/index.ctp:40
-msgid "Copy Return"
-msgstr "Retornar"
-
 #: View/Movements/rent.ctp:4
 msgid "Movie rental"
 msgstr "Lloguer de disc"
+
+#: View/Movements/rent.ctp:10
+msgid "Prepayed"
+msgstr "Prepagat"
 
 #: View/Movements/rentend.ctp:4
 msgid "Return Register"
@@ -793,6 +666,22 @@ msgstr "Informe de lloguers"
 #: View/Movements/reportform.ctp:6
 msgid "Date Selection"
 msgstr "Selecció de dates"
+
+#: View/Movements/reportform.ctp:7
+msgid "From date"
+msgstr "Data inicial"
+
+#: View/Movements/reportform.ctp:8
+msgid "To date"
+msgstr "Data final"
+
+#: View/Movements/reportview.ctp:6
+msgid "fiscalDate"
+msgstr "Data operació"
+
+#: View/Movements/reportview.ctp:7
+msgid "Movement Id"
+msgstr "Codi de moviment"
 
 #: View/Movements/view.ctp:2
 msgid "Movement"
@@ -895,6 +784,48 @@ msgstr "La contrasenya és obligatòria"
 #: for field role
 msgid "Please enter a valid role"
 msgstr "El rol introduït no és vàlid"
+
+#~ msgid "Copy Id"
+#~ msgstr "Codi de disc"
+
+#~ msgid "Return"
+#~ msgstr "Retornar"
+
+#~ msgid "January"
+#~ msgstr "Gener"
+
+#~ msgid "February"
+#~ msgstr "Febrer"
+
+#~ msgid "March"
+#~ msgstr "Març"
+
+#~ msgid "April"
+#~ msgstr "Abril"
+
+#~ msgid "May"
+#~ msgstr "Maig"
+
+#~ msgid "June"
+#~ msgstr "Juny"
+
+#~ msgid "July"
+#~ msgstr "Juliol"
+
+#~ msgid "August"
+#~ msgstr "Agost"
+
+#~ msgid "September"
+#~ msgstr "Setembre"
+
+#~ msgid "October"
+#~ msgstr "Octubre"
+
+#~ msgid "November"
+#~ msgstr "Novembre"
+
+#~ msgid "December"
+#~ msgstr "Desembre"
 
 #~ msgid "Please correct the errors below."
 #~ msgstr "Corregeix els errors."

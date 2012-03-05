@@ -69,7 +69,6 @@
 <div class="actions">
     <h3><?php echo __('Actions'); ?></h3>
     <ul>
-        <li><?php echo $this->Html->link(__('New Movement'), array('action' => 'add')); ?></li>
         <li><?php echo $this->Html->link(__('List Clients'), array('controller' => 'clients', 'action' => 'index')); ?> </li>
         <li><?php echo $this->Html->link(__('New Client'), array('controller' => 'clients', 'action' => 'add')); ?> </li>
         <li><?php echo $this->Html->link(__('List Copies'), array('controller' => 'copies', 'action' => 'index')); ?> </li>

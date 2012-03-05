@@ -64,7 +64,5 @@ echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => '
         <li><?php echo $this->Html->link(__('New Copy'), array('action' => 'add')); ?></li>
         <li><?php echo $this->Html->link(__('List Formats'), array('controller' => 'formats', 'action' => 'index')); ?> </li>
         <li><?php echo $this->Html->link(__('New Format'), array('controller' => 'formats', 'action' => 'add')); ?> </li>
-        <li><?php echo $this->Html->link(__('List Movements'), array('controller' => 'movements', 'action' => 'index')); ?> </li>
-        <li><?php echo $this->Html->link(__('New Movement'), array('controller' => 'movements', 'action' => 'add')); ?> </li>
     </ul>
 </div>

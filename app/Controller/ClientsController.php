@@ -55,6 +55,7 @@ class ClientsController extends AppController {
      * @return void
      */
     public function view($id = null) {
+        $this->Client->recursive=2;
         $this->Client->id = $id;
         if (!$this->Client->exists()) {
             throw new NotFoundException(__('Invalid client'));
