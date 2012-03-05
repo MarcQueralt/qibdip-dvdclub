@@ -14,7 +14,7 @@ class MovementsController extends AppController {
      *
      * @var array
      */
-//	public $helpers = array('Ajax', 'Javascript', 'Time');
+    public $helpers = array('Js'=>array('Jquery'));
 
     /**
      * index method
@@ -139,12 +139,16 @@ class MovementsController extends AppController {
             if(0==$this->request->data['Movement']['amount']):
                 unset($this->request->data['Movement']['amount']);
             endif;
-            if ($this->Movement->save($this->request->data)) {
-                $this->Session->setFlash(__('The movement has been saved'));
-                $this->redirect(array('controller'=>'clients','action' => 'view',$this->data['Movement']['client_id']));
-            } else {
-                $this->Session->setFlash(__('The movement could not be saved. Please, try again.'));
+            if (""==$this->request->data['Movement']['copy_id']):
+                $this->Session->setFlash(__('Copy ID is required'));
+            else:
+                if ($this->Movement->save($this->request->data)) {
+                    $this->Session->setFlash(__('The movement has been saved'));
+                    $this->redirect(array('controller'=>'clients','action' => 'view',$this->data['Movement']['client_id']));
+                } else {
+                    $this->Session->setFlash(__('The movement could not be saved. Please, try again.'));
             }
+            endif;
         }
         $clients = $this->Movement->Client->find('list');
         $copies = $this->Movement->Copy->find('list');
@@ -181,7 +185,7 @@ class MovementsController extends AppController {
                 $this->redirect(array('controller'=>'clients','action' => 'view',$this->Movement->data['Movement']['client_id']));
             }
             if('0000-00-00'==$this->request->data['Movement']['ended']):
-                    $this->request->data['Movement']['ended']=$this->request->data['Movement']['estimatedReturnDate'];
+                $this->request->data['Movement']['ended']=$this->request->data['Movement']['estimatedReturnDate'];
             endif;
             $this->request->data['Movement']['returned']=TRUE;
         }
@@ -280,6 +284,7 @@ class MovementsController extends AppController {
                         'Movement.fiscalDate >='=>date($this->passedArgs['Report.minDate']['year'].'-'.$this->passedArgs['Report.minDate']['month'].'-'.$this->passedArgs['Report.minDate']['day']),
                         'Movement.fiscalDate <='=>date($this->passedArgs['Report.maxDate']['year'].'-'.$this->passedArgs['Report.maxDate']['month'].'-'.$this->passedArgs['Report.maxDate']['day']),
                         'Movement.fiscalMovement'=>TRUE,
+                        'Movement.amount <>'=>0
                 ),
                 'order'=>array(
                         'Movement.fiscalDate',

@@ -4,6 +4,10 @@
         <legend><?php echo __('Movie rental'); ?></legend>
         <?php
         echo $this->Form->input('client_id',array('default' => isset($this->passedArgs)?$this->passedArgs:'','empty'=>true));
+        echo $this->Form->input('copy_id_search',array('style'=>'width:100px;margin-right:10px;','div'=>''));
+        echo $this->Form->button(__('Search'),array('type'=>'button','id'=>'copySearch','style'=>'height:41px;padding:5px;'));
+        $this->Js->get('#copySearch');
+        $this->Js->event('click','searchCopy();');
         echo $this->Form->input('copy_id',array('empty'=>true));
         echo $this->Form->input('mov_type',array('type' => 'hidden', 'default' => 'C'));
         echo $this->Form->input('started',array('dateFormat'=>'DMY','monthNames'=>false));
@@ -27,3 +31,7 @@
         <li><?php echo $this->Html->link(__('New Copy'), array('controller' => 'copies', 'action' => 'add')); ?> </li>
     </ul>
 </div>
+<?php
+echo $this->Js->writeBuffer();
+echo $this->Html->script('searchCopy');
+?>

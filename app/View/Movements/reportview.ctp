@@ -21,7 +21,6 @@
         <tr>
             <th colspan="3" style="text-align:right;"><strong>TOTAL</strong></th>
             <th style="text-align:right;"><?php echo number_format($total, 2);?>&nbsp;</th>
-            <th colspan="2">&nbsp;</th>
         </tr>
     </table>
 </div>

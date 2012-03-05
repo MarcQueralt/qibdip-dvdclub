@@ -92,7 +92,7 @@
             <th><?php echo __('Id'); ?></th>
             <th><?php echo __('Copy'); ?></th>
             <th><?php echo __('Mov Type'); ?></th>
-            <th><?php echo __('Amount'); ?></th>
+            <th style="text-align:right;"><?php echo __('Amount'); ?></th>
             <th><?php echo __('Started'); ?></th>
             <th><?php echo __('Ended'); ?></th>
             <th><?php echo __('Returned'); ?></th>
@@ -110,7 +110,7 @@
                         echo 'M'==h($movement['mov_type'])?__('Money'):'';
                         ?>
             </td>
-            <td class="number"><?php echo $movement['amount'];?></td>
+            <td class="number" style="text-align: right;"><?php echo $movement['amount'];?></td>
             <td><?php echo isset($movement['started'])?date('d-m-Y',strtotime($movement['started'])):'';?></td>
             <td><?php echo ('0000-00-00'==$movement['ended'])?'':date('d-m-Y',strtotime($movement['ended']));?></td>
             <td class="actions">

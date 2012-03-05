@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-03-05 07:29+0100\n"
+"POT-Creation-Date: 2012-03-05 14:45+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -74,15 +74,15 @@ msgstr ""
 msgid "Format was not deleted"
 msgstr ""
 
-#: Controller/MovementsController.php:38;72;101;163
+#: Controller/MovementsController.php:38;72;101;167
 msgid "Invalid movement"
 msgstr ""
 
-#: Controller/MovementsController.php:52;76;120;143;167
+#: Controller/MovementsController.php:52;76;120;146;171
 msgid "The movement has been saved"
 msgstr ""
 
-#: Controller/MovementsController.php:55;79;123;146;170
+#: Controller/MovementsController.php:55;79;123;149;174
 msgid "The movement could not be saved. Please, try again."
 msgstr ""
 
@@ -94,15 +94,19 @@ msgstr ""
 msgid "Movement was not deleted"
 msgstr ""
 
-#: Controller/MovementsController.php:176
-msgid "You only can return based on a rent movement"
+#: Controller/MovementsController.php:143
+msgid "Copy ID is required"
 msgstr ""
 
 #: Controller/MovementsController.php:180
+msgid "You only can return based on a rent movement"
+msgstr ""
+
+#: Controller/MovementsController.php:184
 msgid "You only can return once"
 msgstr ""
 
-#: Controller/MovementsController.php:227;272
+#: Controller/MovementsController.php:231;276
 msgid "You must select complete dates"
 msgstr ""
 
@@ -143,7 +147,7 @@ msgstr ""
 #: View/Movements/add.ctp:16
 #: View/Movements/charge.ctp:13
 #: View/Movements/edit.ctp:17
-#: View/Movements/rent.ctp:15
+#: View/Movements/rent.ctp:19
 #: View/Movements/rentend.ctp:18
 #: View/Users/add.ctp:11
 #: View/Users/edit.ctp:12
@@ -166,7 +170,7 @@ msgstr ""
 #: View/Movements/charge.ctp:16
 #: View/Movements/edit.ctp:20
 #: View/Movements/index.ctp:13;70
-#: View/Movements/rent.ctp:18
+#: View/Movements/rent.ctp:22
 #: View/Movements/rentend.ctp:21
 #: View/Movements/view.ctp:65
 #: View/Users/add.ctp:14
@@ -183,7 +187,7 @@ msgstr ""
 #: View/Movements/charge.ctp:22
 #: View/Movements/edit.ctp:25
 #: View/Movements/index.ctp:72
-#: View/Movements/rent.ctp:24
+#: View/Movements/rent.ctp:28
 #: View/Movements/view.ctp:71
 msgid "List Clients"
 msgstr ""
@@ -228,7 +232,7 @@ msgid "Are you sure you want to delete # %s?"
 msgstr ""
 
 #: View/Clients/index.ctp:2
-#: View/Layouts/default.ctp:46
+#: View/Layouts/default.ctp:45
 msgid "Clients"
 msgstr ""
 
@@ -242,6 +246,7 @@ msgstr ""
 
 #: View/Clients/index.ctp:9
 #: View/Copies/index.ctp:9
+#: View/Movements/rent.ctp:8
 msgid "Search"
 msgstr ""
 
@@ -297,7 +302,7 @@ msgstr ""
 #: View/Movements/charge.ctp:23
 #: View/Movements/edit.ctp:26
 #: View/Movements/index.ctp:73
-#: View/Movements/rent.ctp:25
+#: View/Movements/rent.ctp:29
 #: View/Movements/view.ctp:72
 msgid "New Client"
 msgstr ""
@@ -478,7 +483,7 @@ msgstr ""
 #: View/Movements/charge.ctp:24
 #: View/Movements/edit.ctp:27
 #: View/Movements/index.ctp:74
-#: View/Movements/rent.ctp:26
+#: View/Movements/rent.ctp:30
 #: View/Movements/view.ctp:73
 msgid "List Copies"
 msgstr ""
@@ -508,7 +513,7 @@ msgid "Edit Copy"
 msgstr ""
 
 #: View/Copies/index.ctp:2
-#: View/Layouts/default.ctp:47
+#: View/Layouts/default.ctp:46
 msgid "Copies"
 msgstr ""
 
@@ -532,7 +537,7 @@ msgstr ""
 #: View/Movements/charge.ctp:25
 #: View/Movements/edit.ctp:28
 #: View/Movements/index.ctp:75
-#: View/Movements/rent.ctp:27
+#: View/Movements/rent.ctp:31
 #: View/Movements/view.ctp:74
 msgid "New Copy"
 msgstr ""
@@ -585,7 +590,7 @@ msgid "Edit Format"
 msgstr ""
 
 #: View/Formats/index.ctp:2
-#: View/Layouts/default.ctp:48
+#: View/Layouts/default.ctp:47
 msgid "Formats"
 msgstr ""
 
@@ -605,17 +610,17 @@ msgstr ""
 msgid "Related Copies"
 msgstr ""
 
-#: View/Layouts/default.ctp:49
+#: View/Layouts/default.ctp:48
 #: View/Movements/index.ctp:2
 msgid "Movements"
 msgstr ""
 
-#: View/Layouts/default.ctp:50
+#: View/Layouts/default.ctp:49
 #: View/Movements/reportform.ctp:9
 msgid "Report"
 msgstr ""
 
-#: View/Layouts/default.ctp:51
+#: View/Layouts/default.ctp:50
 msgid "Logout"
 msgstr ""
 
@@ -626,7 +631,7 @@ msgstr ""
 #: View/Movements/add.ctp:22
 #: View/Movements/charge.ctp:21
 #: View/Movements/edit.ctp:24
-#: View/Movements/rent.ctp:23
+#: View/Movements/rent.ctp:27
 #: View/Movements/view.ctp:69
 msgid "List Movements"
 msgstr ""
@@ -636,7 +641,7 @@ msgid "Charge date"
 msgstr ""
 
 #: View/Movements/charge.ctp:19
-#: View/Movements/rent.ctp:21
+#: View/Movements/rent.ctp:25
 #: View/Movements/rentend.ctp:23
 msgid "Back to Client"
 msgstr ""
@@ -650,7 +655,7 @@ msgstr ""
 msgid "Movie rental"
 msgstr ""
 
-#: View/Movements/rent.ctp:10
+#: View/Movements/rent.ctp:14
 msgid "Prepayed"
 msgstr ""
 
