@@ -1,11 +1,18 @@
 DVDClub - Rental DVD Software
-v1.2
+v1.2.1
 
 qibdip 2012 - http://qibdip.com
 
 License GPL
 
 =Change Log=
+
+==v1.2.1 March 2012==
+
+Bug in MovieSearch.
+Prevent movements updates on the generic form.
+Bug in Return Cost calculation.
+Allow imported Balance to skip double Tax declaration.
 
 ==v1.2 March 2012==
 

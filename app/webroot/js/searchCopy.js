@@ -4,7 +4,8 @@ function searchCopy() {
     $('#MovementCopyId').val(null);
     $('#MovementCopyIdSearch').css("background","#ffffff");
     if(''!=value) {
-        var text=$('#MovementCopyId option').eq(value).val();
+        var option='#MovementCopyId option[value="'+value+'"]';
+        var text=$(option).val();
         if(null==text) {
             $('#MovementCopyIdSearch').css("background","#ffaaaa");
         } else {

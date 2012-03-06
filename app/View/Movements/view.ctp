@@ -29,6 +29,11 @@
             <?php echo h($movement['Movement']['amount']); ?>
             &nbsp;
         </dd>
+        <dt><?php echo __('Prepaid'); ?></dt>
+        <dd>
+            <?php echo h($movement['Movement']['prepaid']); ?>
+            &nbsp;
+        </dd>
         <dt><?php echo __('Started'); ?></dt>
         <dd>
             <?php echo h($movement['Movement']['started']); ?>

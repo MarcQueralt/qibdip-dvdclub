@@ -187,6 +187,9 @@ class MovementsController extends AppController {
             if('0000-00-00'==$this->request->data['Movement']['ended']):
                 $this->request->data['Movement']['ended']=$this->request->data['Movement']['estimatedReturnDate'];
             endif;
+            if(0==$this->request->data['Movement']['amount']):
+                $this->request->data['Movement']['amount']=$this->request->data['Movement']['estimatedCost'];
+            endif;
             $this->request->data['Movement']['returned']=TRUE;
         }
         $clients = $this->Movement->Client->find('list');

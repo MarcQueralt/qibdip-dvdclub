@@ -16,6 +16,13 @@
             <?php echo h($client['Client']['surname']); ?>
             &nbsp;
         </dd>
+        <?php $color=(0<$client['Client']['balance'])?"green":"red";?>
+        <dt style="font-weight: bold; color: <?php echo $color;?>;"><?php echo __('Balance'); ?></dt>
+        <dd style="text-align: right; font-weight: bold; color: <?php echo $color;?>;">
+            <?php echo h($client['Client']['balance']); ?>
+            &nbsp;
+        </dd>
+
         <dt><?php echo __('Address'); ?></dt>
         <dd>
             <?php echo h($client['Client']['address']); ?>
@@ -126,8 +133,8 @@
             </td>
             <td class="actions">
                         <?php echo $this->Html->link(__('View'), array('controller' => 'movements', 'action' => 'view', $movement['id'])); ?>
-                        <?php echo $this->Html->link(__('Edit'), array('controller' => 'movements', 'action' => 'edit', $movement['id'])); ?>
-                        <?php echo $this->Form->postLink(__('Delete'), array('controller' => 'movements', 'action' => 'delete', $movement['id']), null, __('Are you sure you want to delete # %s?', $movement['id'])); ?>
+                        <?php //echo $this->Html->link(__('Edit'), array('controller' => 'movements', 'action' => 'edit', $movement['id'])); ?>
+                        <?php //echo $this->Form->postLink(__('Delete'), array('controller' => 'movements', 'action' => 'delete', $movement['id']), null, __('Are you sure you want to delete # %s?', $movement['id'])); ?>
             </td>
         </tr>
             <?php endforeach; ?>

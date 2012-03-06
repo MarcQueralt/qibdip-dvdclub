@@ -8,6 +8,7 @@
 		echo $this->Form->input('copy_id',array('empty'=>true));
 		echo $this->Form->input('mov_type',array('type'=>'select','empty'=>true,'options'=>array('C'=>__('Rental'),'M'=>__('Money'))));
 		echo $this->Form->input('amount');
+                echo $this->Form->input('prepaid');
                 echo $this->Form->input('started',array('dateFormat'=>'DMY','monthNames'=>false));
                 echo $this->Form->input('ended',array('dateFormat'=>'DMY','monthNames'=>false));
 		echo $this->Form->input('returned');

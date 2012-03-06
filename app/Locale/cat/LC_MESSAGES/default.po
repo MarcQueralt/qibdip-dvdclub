@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qibdip dvdClub\n"
-"POT-Creation-Date: 2012-03-05 14:45+0100\n"
-"PO-Revision-Date: 2012-03-05 14:48+0100\n"
+"POT-Creation-Date: 2012-03-06 07:49+0100\n"
+"PO-Revision-Date: 2012-03-06 07:57+0100\n"
 "Last-Translator: marc <marc@qibdip.com>\n"
 "Language-Team: qibdip <info@qibdip.com>\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "Sols es pot fer la devolució d'un lloguer"
 msgid "You only can return once"
 msgstr "Sols es pot tornar el mateix lloguer una única vegada"
 
-#: Controller/MovementsController.php:231;276
+#: Controller/MovementsController.php:234;279
 msgid "You must select complete dates"
 msgstr "Cal seleccionar dates completes"
 
@@ -145,8 +145,8 @@ msgstr "Afegir client"
 #: View/Formats/add.ctp:10
 #: View/Formats/edit.ctp:11
 #: View/Movements/add.ctp:16
-#: View/Movements/charge.ctp:13
-#: View/Movements/edit.ctp:17
+#: View/Movements/charge.ctp:14
+#: View/Movements/edit.ctp:18
 #: View/Movements/rent.ctp:19
 #: View/Movements/rentend.ctp:18
 #: View/Users/add.ctp:11
@@ -157,7 +157,7 @@ msgstr "Desar"
 #: View/Clients/add.ctp:22
 #: View/Clients/edit.ctp:23
 #: View/Clients/index.ctp:22;58
-#: View/Clients/view.ctp:77;99
+#: View/Clients/view.ctp:84;106
 #: View/Copies/add.ctp:18
 #: View/Copies/edit.ctp:18
 #: View/Copies/index.ctp:22;62
@@ -167,12 +167,12 @@ msgstr "Desar"
 #: View/Formats/index.ctp:10;44
 #: View/Formats/view.ctp:32;53
 #: View/Movements/add.ctp:19
-#: View/Movements/charge.ctp:16
-#: View/Movements/edit.ctp:20
+#: View/Movements/charge.ctp:17
+#: View/Movements/edit.ctp:21
 #: View/Movements/index.ctp:13;70
 #: View/Movements/rent.ctp:22
 #: View/Movements/rentend.ctp:21
-#: View/Movements/view.ctp:65
+#: View/Movements/view.ctp:70
 #: View/Users/add.ctp:14
 #: View/Users/edit.ctp:15
 #: View/Users/index.ctp:11;47
@@ -182,32 +182,30 @@ msgstr "Accions"
 
 #: View/Clients/add.ctp:24
 #: View/Clients/edit.ctp:26
-#: View/Clients/view.ctp:81
+#: View/Clients/view.ctp:88
 #: View/Movements/add.ctp:23
-#: View/Movements/charge.ctp:22
-#: View/Movements/edit.ctp:25
+#: View/Movements/charge.ctp:23
+#: View/Movements/edit.ctp:26
 #: View/Movements/index.ctp:72
 #: View/Movements/rent.ctp:28
-#: View/Movements/view.ctp:71
+#: View/Movements/view.ctp:76
 msgid "List Clients"
 msgstr "Llista de clients"
 
 #: View/Clients/edit.ctp:4
-#: View/Clients/view.ctp:79
+#: View/Clients/view.ctp:86
 msgid "Edit Client"
 msgstr "Modificar el client"
 
 #: View/Clients/edit.ctp:25
 #: View/Clients/index.ctp:37
-#: View/Clients/view.ctp:130
 #: View/Copies/edit.ctp:20
 #: View/Copies/index.ctp:41
 #: View/Copies/view.ctp:93
 #: View/Formats/edit.ctp:16
 #: View/Formats/index.ctp:23
 #: View/Formats/view.ctp:68
-#: View/Movements/edit.ctp:23
-#: View/Movements/index.ctp:49
+#: View/Movements/edit.ctp:24
 #: View/Users/edit.ctp:18
 #: View/Users/index.ctp:26
 msgid "Delete"
@@ -215,16 +213,15 @@ msgstr "Eliminar"
 
 #: View/Clients/edit.ctp:25
 #: View/Clients/index.ctp:37
-#: View/Clients/view.ctp:80;130
+#: View/Clients/view.ctp:87
 #: View/Copies/edit.ctp:20
 #: View/Copies/index.ctp:41
 #: View/Copies/view.ctp:60;93
 #: View/Formats/edit.ctp:16
 #: View/Formats/index.ctp:23
 #: View/Formats/view.ctp:35;68
-#: View/Movements/edit.ctp:23
-#: View/Movements/index.ctp:49
-#: View/Movements/view.ctp:68
+#: View/Movements/edit.ctp:24
+#: View/Movements/view.ctp:73
 #: View/Users/edit.ctp:18
 #: View/Users/index.ctp:26
 #: View/Users/view.ctp:40
@@ -251,7 +248,7 @@ msgid "Search"
 msgstr "Cercar"
 
 #: View/Clients/index.ctp:35
-#: View/Clients/view.ctp:128
+#: View/Clients/view.ctp:135
 #: View/Copies/index.ctp:39
 #: View/Copies/view.ctp:91
 #: View/Formats/index.ctp:21
@@ -262,12 +259,10 @@ msgid "View"
 msgstr "Veure"
 
 #: View/Clients/index.ctp:36
-#: View/Clients/view.ctp:129
 #: View/Copies/index.ctp:40
 #: View/Copies/view.ctp:92
 #: View/Formats/index.ctp:22
 #: View/Formats/view.ctp:67
-#: View/Movements/index.ctp:48
 #: View/Users/index.ctp:25
 msgid "Edit"
 msgstr "Modificar"
@@ -297,13 +292,13 @@ msgid "next"
 msgstr "següent"
 
 #: View/Clients/index.ctp:60
-#: View/Clients/view.ctp:82
+#: View/Clients/view.ctp:89
 #: View/Movements/add.ctp:24
-#: View/Movements/charge.ctp:23
-#: View/Movements/edit.ctp:26
+#: View/Movements/charge.ctp:24
+#: View/Movements/edit.ctp:27
 #: View/Movements/index.ctp:73
 #: View/Movements/rent.ctp:29
-#: View/Movements/view.ctp:72
+#: View/Movements/view.ctp:77
 msgid "New Client"
 msgstr "Nou client"
 
@@ -314,7 +309,7 @@ msgstr "Nou client"
 msgid "Client"
 msgstr "Client"
 
-#: View/Clients/view.ctp:4;92
+#: View/Clients/view.ctp:4;99
 #: View/Copies/view.ctp:4;72
 #: View/Formats/view.ctp:4;47
 #: View/Movements/view.ctp:4
@@ -330,116 +325,120 @@ msgstr "Nom"
 msgid "Surname"
 msgstr "Cognoms"
 
-#: View/Clients/view.ctp:19
+#: View/Clients/view.ctp:20
+msgid "Balance"
+msgstr "Saldo"
+
+#: View/Clients/view.ctp:26
 msgid "Address"
 msgstr "Adreça"
 
-#: View/Clients/view.ctp:24
+#: View/Clients/view.ctp:31
 msgid "Cp"
 msgstr "CP"
 
-#: View/Clients/view.ctp:29
+#: View/Clients/view.ctp:36
 msgid "City"
 msgstr "Població"
 
-#: View/Clients/view.ctp:34
+#: View/Clients/view.ctp:41
 msgid "Phone"
 msgstr "Telèfon"
 
-#: View/Clients/view.ctp:39
+#: View/Clients/view.ctp:46
 msgid "Mobile"
 msgstr "Mòbil"
 
-#: View/Clients/view.ctp:44
+#: View/Clients/view.ctp:51
 msgid "Personal ID"
 msgstr "NIF"
 
-#: View/Clients/view.ctp:49
+#: View/Clients/view.ctp:56
 #: View/Copies/view.ctp:19
 #: View/Formats/view.ctp:49
 msgid "Active"
 msgstr "Actiu"
 
-#: View/Clients/view.ctp:54
-#: View/Movements/view.ctp:47
+#: View/Clients/view.ctp:61
+#: View/Movements/view.ctp:52
 msgid "Comments"
 msgstr "Comentaris"
 
-#: View/Clients/view.ctp:59
+#: View/Clients/view.ctp:66
 msgid "Birthday"
-msgstr "Data de naixement"
+msgstr "Naixement"
 
-#: View/Clients/view.ctp:64
+#: View/Clients/view.ctp:71
 #: View/Copies/view.ctp:44
 #: View/Formats/view.ctp:19
-#: View/Movements/view.ctp:52
+#: View/Movements/view.ctp:57
 #: View/Users/view.ctp:24
 msgid "Created"
 msgstr "Creació"
 
-#: View/Clients/view.ctp:69
+#: View/Clients/view.ctp:76
 #: View/Copies/view.ctp:49
 #: View/Formats/view.ctp:24
-#: View/Movements/view.ctp:57
+#: View/Movements/view.ctp:62
 #: View/Users/view.ctp:29
 msgid "Modified"
 msgstr "Modificació"
 
-#: View/Clients/view.ctp:80
+#: View/Clients/view.ctp:87
 msgid "Delete Client"
 msgstr "Esborrar client"
 
-#: View/Clients/view.ctp:83
+#: View/Clients/view.ctp:90
 msgid "Rent Copy"
 msgstr "Llogar disc"
 
-#: View/Clients/view.ctp:84
+#: View/Clients/view.ctp:91
 #: View/Movements/charge.ctp:4
 msgid "Charge Money"
 msgstr "Carregar saldo"
 
-#: View/Clients/view.ctp:88
+#: View/Clients/view.ctp:95
 #: View/Copies/view.ctp:68
 msgid "Related Movements"
 msgstr "Moviments relacionats"
 
-#: View/Clients/view.ctp:93
+#: View/Clients/view.ctp:100
 #: View/Copies/view.ctp:2
 #: View/Movements/view.ctp:14
 msgid "Copy"
 msgstr "Disc"
 
-#: View/Clients/view.ctp:94
+#: View/Clients/view.ctp:101
 #: View/Movements/view.ctp:19
 msgid "Mov Type"
 msgstr "Tipus de moviment"
 
-#: View/Clients/view.ctp:95
+#: View/Clients/view.ctp:102
 #: View/Copies/view.ctp:74
 #: View/Movements/reportview.ctp:9
 #: View/Movements/view.ctp:27
 msgid "Amount"
 msgstr "Import"
 
-#: View/Clients/view.ctp:96
+#: View/Clients/view.ctp:103
 #: View/Copies/view.ctp:75
-#: View/Movements/view.ctp:32
+#: View/Movements/view.ctp:37
 msgid "Started"
 msgstr "Inici"
 
-#: View/Clients/view.ctp:97
+#: View/Clients/view.ctp:104
 #: View/Copies/view.ctp:76
-#: View/Movements/view.ctp:37
+#: View/Movements/view.ctp:42
 msgid "Ended"
 msgstr "Final"
 
-#: View/Clients/view.ctp:98
+#: View/Clients/view.ctp:105
 #: View/Copies/view.ctp:77
-#: View/Movements/view.ctp:42
+#: View/Movements/view.ctp:47
 msgid "Returned"
 msgstr "Retornat"
 
-#: View/Clients/view.ctp:109
+#: View/Clients/view.ctp:116
 #: View/Movements/add.ctp:8
 #: View/Movements/edit.ctp:9
 #: View/Movements/index.ctp:27
@@ -447,7 +446,7 @@ msgstr "Retornat"
 msgid "Rental"
 msgstr "Lloguer"
 
-#: View/Clients/view.ctp:110
+#: View/Clients/view.ctp:117
 #: View/Movements/add.ctp:8
 #: View/Movements/edit.ctp:9
 #: View/Movements/index.ctp:28
@@ -455,7 +454,7 @@ msgstr "Lloguer"
 msgid "Money"
 msgstr "Saldo"
 
-#: View/Clients/view.ctp:119
+#: View/Clients/view.ctp:126
 #: View/Copies/index.ctp:32;34
 #: View/Copies/view.ctp:21;26;89
 #: View/Formats/view.ctp:61;62
@@ -463,7 +462,7 @@ msgstr "Saldo"
 msgid "Yes"
 msgstr "Sí"
 
-#: View/Clients/view.ctp:121
+#: View/Clients/view.ctp:128
 #: View/Movements/index.ctp:40
 msgid "Copy Return"
 msgstr "Retornar"
@@ -480,11 +479,11 @@ msgstr "Afegir disc"
 #: View/Formats/index.ctp:47
 #: View/Formats/view.ctp:38
 #: View/Movements/add.ctp:25
-#: View/Movements/charge.ctp:24
-#: View/Movements/edit.ctp:27
+#: View/Movements/charge.ctp:25
+#: View/Movements/edit.ctp:28
 #: View/Movements/index.ctp:74
 #: View/Movements/rent.ctp:30
-#: View/Movements/view.ctp:73
+#: View/Movements/view.ctp:78
 msgid "List Copies"
 msgstr "Llista de discs"
 
@@ -534,11 +533,11 @@ msgstr "No"
 #: View/Formats/index.ctp:48
 #: View/Formats/view.ctp:39;77
 #: View/Movements/add.ctp:26
-#: View/Movements/charge.ctp:25
-#: View/Movements/edit.ctp:28
+#: View/Movements/charge.ctp:26
+#: View/Movements/edit.ctp:29
 #: View/Movements/index.ctp:75
 #: View/Movements/rent.ctp:31
-#: View/Movements/view.ctp:74
+#: View/Movements/view.ctp:79
 msgid "New Copy"
 msgstr "Nou disc"
 
@@ -576,7 +575,7 @@ msgid "Delete Copy"
 msgstr "Eliminar disc"
 
 #: View/Copies/view.ctp:102
-#: View/Movements/view.ctp:70
+#: View/Movements/view.ctp:75
 msgid "New Movement"
 msgstr "Nou moviment"
 
@@ -629,10 +628,10 @@ msgid "Add Movement"
 msgstr "Afegir moviment"
 
 #: View/Movements/add.ctp:22
-#: View/Movements/charge.ctp:21
-#: View/Movements/edit.ctp:24
+#: View/Movements/charge.ctp:22
+#: View/Movements/edit.ctp:25
 #: View/Movements/rent.ctp:27
-#: View/Movements/view.ctp:69
+#: View/Movements/view.ctp:74
 msgid "List Movements"
 msgstr "Llista de moviments"
 
@@ -640,14 +639,18 @@ msgstr "Llista de moviments"
 msgid "Charge date"
 msgstr "Data de càrrega"
 
-#: View/Movements/charge.ctp:19
+#: View/Movements/charge.ctp:11
+msgid "Imported from older system"
+msgstr "Importat des del sistema anterior (marcar per evitar doble tributació)"
+
+#: View/Movements/charge.ctp:20
 #: View/Movements/rent.ctp:25
 #: View/Movements/rentend.ctp:23
 msgid "Back to Client"
 msgstr "Tornar al Client"
 
 #: View/Movements/edit.ctp:4
-#: View/Movements/view.ctp:67
+#: View/Movements/view.ctp:72
 msgid "Edit Movement"
 msgstr "Modificar moviment"
 
@@ -692,7 +695,11 @@ msgstr "Codi de moviment"
 msgid "Movement"
 msgstr "Moviment"
 
-#: View/Movements/view.ctp:68
+#: View/Movements/view.ctp:32
+msgid "Prepaid"
+msgstr "Prepagat"
+
+#: View/Movements/view.ctp:73
 msgid "Delete Movement"
 msgstr "Esborrar moviment"
 
@@ -837,9 +844,6 @@ msgstr "El rol introduït no és vàlid"
 
 #~ msgid "Debug setting does not allow access to this url."
 #~ msgstr "La configuració de depuració no permet l'accés a aquesta url."
-
-#~ msgid "Balance"
-#~ msgstr "Saldo"
 
 #~ msgid "Format Id"
 #~ msgstr "Codi de format"

@@ -21,10 +21,10 @@ class Movement extends AppModel {
      * @var array
      */
     public $virtualFields = array(
-        "estimatedCost" => "coalesce(datediff(current_date(),Movement.started)+1)*(select daily_rate from formats where formats.id=Movement.copy_id)",
+        "estimatedCost" => "(datediff(now(),Movement.started)+1)*(select daily_rate from formats f join copies c where f.id=c.format_id and c.id=Movement.copy_id)",
         "estimatedReturnDate" => "current_date()",
         "fiscalDate" => "CASE mov_type WHEN 'C' THEN started WHEN 'M' THEN ended ELSE null END",
-        "fiscalMovement" => "CASE mov_type WHEN 'M' THEN TRUE WHEN 'C' THEN prepaid ELSE FALSE END",
+        "fiscalMovement" => "CASE mov_type WHEN 'M' THEN NOT(COALESCE(prepaid,FALSE)) WHEN 'C' THEN COALESCE(prepaid,TRUE) ELSE FALSE END",
     );
     /**
      * Validation rules

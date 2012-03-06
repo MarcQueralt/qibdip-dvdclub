@@ -8,6 +8,7 @@
         echo $this->Form->input('amount');
         echo $this->Form->input('ended',array('label' => __('Charge date'),'dateFormat'=>'DMY','monthNames'=>false));
         echo $this->Form->input('comments');
+        echo $this->Form->input('prepaid',array('label'=>__('Imported from older system')));
         ?>
     </fieldset>
     <?php echo $this->Form->end(__('Submit'));?>

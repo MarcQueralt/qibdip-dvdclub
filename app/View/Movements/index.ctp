@@ -45,8 +45,8 @@
             </td>
             <td class="actions">
                     <?php echo $this->Html->link(__('View'), array('action' => 'view', $movement['Movement']['id'])); ?>
-                    <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $movement['Movement']['id'])); ?>
-                    <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $movement['Movement']['id']), null, __('Are you sure you want to delete # %s?', $movement['Movement']['id'])); ?>
+                    <?php //echo $this->Html->link(__('Edit'), array('action' => 'edit', $movement['Movement']['id'])); ?>
+                    <?php //echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $movement['Movement']['id']), null, __('Are you sure you want to delete # %s?', $movement['Movement']['id'])); ?>
             </td>
         </tr>
         <?php endforeach; ?>
