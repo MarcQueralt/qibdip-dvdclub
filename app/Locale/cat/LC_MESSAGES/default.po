@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qibdip dvdClub\n"
-"POT-Creation-Date: 2012-03-06 07:49+0100\n"
-"PO-Revision-Date: 2012-03-06 07:57+0100\n"
+"POT-Creation-Date: 2012-03-17 13:43+0100\n"
+"PO-Revision-Date: 2012-03-17 13:46+0100\n"
 "Last-Translator: marc <marc@qibdip.com>\n"
 "Language-Team: qibdip <info@qibdip.com>\n"
 "MIME-Version: 1.0\n"
@@ -74,39 +74,39 @@ msgstr "S'ha eliminat el format"
 msgid "Format was not deleted"
 msgstr "No es pot eliminar el format"
 
-#: Controller/MovementsController.php:38;72;101;167
+#: Controller/MovementsController.php:40;74;103;169
 msgid "Invalid movement"
 msgstr "No hi ha cap moviment amb aquest codi"
 
-#: Controller/MovementsController.php:52;76;120;146;171
+#: Controller/MovementsController.php:54;78;122;148;173
 msgid "The movement has been saved"
 msgstr "S'ha desat el moviment"
 
-#: Controller/MovementsController.php:55;79;123;149;174
+#: Controller/MovementsController.php:57;81;125;151;176
 msgid "The movement could not be saved. Please, try again."
 msgstr "No es pot desar el moviment. Corregeix els errors i torna-ho a intentar."
 
-#: Controller/MovementsController.php:104
+#: Controller/MovementsController.php:106
 msgid "Movement deleted"
 msgstr "S'ha eliminat el moviment"
 
-#: Controller/MovementsController.php:107
+#: Controller/MovementsController.php:109
 msgid "Movement was not deleted"
 msgstr "No es pot eliminar el format"
 
-#: Controller/MovementsController.php:143
+#: Controller/MovementsController.php:145
 msgid "Copy ID is required"
 msgstr "Cal triar una pel·lícula per a poder-la llogar!"
 
-#: Controller/MovementsController.php:180
+#: Controller/MovementsController.php:182
 msgid "You only can return based on a rent movement"
 msgstr "Sols es pot fer la devolució d'un lloguer"
 
-#: Controller/MovementsController.php:184
+#: Controller/MovementsController.php:186
 msgid "You only can return once"
 msgstr "Sols es pot tornar el mateix lloguer una única vegada"
 
-#: Controller/MovementsController.php:234;279
+#: Controller/MovementsController.php:236;281
 msgid "You must select complete dates"
 msgstr "Cal seleccionar dates completes"
 
@@ -271,6 +271,7 @@ msgstr "Modificar"
 #: View/Copies/index.ctp:49
 #: View/Formats/index.ctp:31
 #: View/Movements/index.ctp:57
+#: View/Movements/pending.ctp:30
 #: View/Users/index.ctp:34
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
 msgstr "Pàgina {:page} de {:pages}, mostrant {:current} registres d'un total de {:count}, mostrant del registre {:start} fins {:end}"
@@ -279,6 +280,7 @@ msgstr "Pàgina {:page} de {:pages}, mostrant {:current} registres d'un total de
 #: View/Copies/index.ctp:55
 #: View/Formats/index.ctp:37
 #: View/Movements/index.ctp:63
+#: View/Movements/pending.ctp:36
 #: View/Users/index.ctp:40
 msgid "previous"
 msgstr "previ"
@@ -287,6 +289,7 @@ msgstr "previ"
 #: View/Copies/index.ctp:57
 #: View/Formats/index.ctp:39
 #: View/Movements/index.ctp:65
+#: View/Movements/pending.ctp:38
 #: View/Users/index.ctp:42
 msgid "next"
 msgstr "següent"
@@ -589,7 +592,7 @@ msgid "Edit Format"
 msgstr "Modificar format"
 
 #: View/Formats/index.ctp:2
-#: View/Layouts/default.ctp:47
+#: View/Layouts/default.ctp:48
 msgid "Formats"
 msgstr "Formats"
 
@@ -609,17 +612,22 @@ msgstr "Eliminar format"
 msgid "Related Copies"
 msgstr "Formats relacionats"
 
-#: View/Layouts/default.ctp:48
+#: View/Layouts/default.ctp:47
+#: View/Movements/pending.ctp:3
+msgid "Pending"
+msgstr "Retards"
+
+#: View/Layouts/default.ctp:49
 #: View/Movements/index.ctp:2
 msgid "Movements"
 msgstr "Moviments"
 
-#: View/Layouts/default.ctp:49
+#: View/Layouts/default.ctp:50
 #: View/Movements/reportform.ctp:9
 msgid "Report"
 msgstr "Informe"
 
-#: View/Layouts/default.ctp:50
+#: View/Layouts/default.ctp:51
 msgid "Logout"
 msgstr "Desconnectar"
 

@@ -6,6 +6,8 @@ App::uses('AppController', 'Controller');
  * @property Movement $Movement
  */
 class MovementsController extends AppController {
+    public $paginate = array();
+    
     public $components = array(
             'Session',
             'Auth');
@@ -296,4 +298,18 @@ class MovementsController extends AppController {
         ));
         $this->set('movements',$movements);
     }
+
+    /**
+     * pending method
+     *
+     * @return void
+     */
+    public function pending() {
+        $this->Movement->recursive = 1;
+        $this->paginate['conditions'][]['Movement.mov_type']='C';
+        $this->paginate['conditions'][]['Movement.pending']=TRUE;
+        $this->paginate['sort']='Movement.started';
+        $this->set('movements', $this->paginate());
+    }
+
 }

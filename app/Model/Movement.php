@@ -25,6 +25,7 @@ class Movement extends AppModel {
         "estimatedReturnDate" => "current_date()",
         "fiscalDate" => "CASE mov_type WHEN 'C' THEN started WHEN 'M' THEN ended ELSE null END",
         "fiscalMovement" => "CASE mov_type WHEN 'M' THEN NOT(COALESCE(prepaid,FALSE)) WHEN 'C' THEN COALESCE(prepaid,TRUE) ELSE FALSE END",
+        "pending" => "(Movement.returned IS NULL OR Movement.returned=FALSE) AND DATEDIFF(NOW(),Movement.started)>1",
     );
     /**
      * Validation rules

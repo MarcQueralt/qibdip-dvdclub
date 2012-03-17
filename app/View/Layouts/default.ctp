@@ -44,6 +44,7 @@ endif;
                 <div id="menu">
                     <?php echo $this->Html->link(__('Clients'), array('controller' => 'clients','action' => 'index')); ?>
                     <?php echo $this->Html->link(__('Copies'), array('controller' => 'copies','action' => 'index')); ?>
+                    <?php echo $this->Html->link(__('Pending'), array('controller' => 'movements','action' => 'pending'),array('style'=>'color:red;')); ?>
                     <?php echo $this->Html->link(__('Formats'), array('controller' => 'formats','action' => 'index')); ?>
                     <?php echo $this->Html->link(__('Movements'), array('controller' => 'movements','action' => 'index')); ?>
                     <?php echo $this->Html->link(__('Report'), array('controller' => 'movements','action' => 'reportform')); ?>

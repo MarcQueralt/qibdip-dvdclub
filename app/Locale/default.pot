@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-03-06 07:49+0100\n"
+"POT-Creation-Date: 2012-03-17 13:48+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -74,39 +74,39 @@ msgstr ""
 msgid "Format was not deleted"
 msgstr ""
 
-#: Controller/MovementsController.php:38;72;101;167
+#: Controller/MovementsController.php:40;74;103;169
 msgid "Invalid movement"
 msgstr ""
 
-#: Controller/MovementsController.php:52;76;120;146;171
+#: Controller/MovementsController.php:54;78;122;148;173
 msgid "The movement has been saved"
 msgstr ""
 
-#: Controller/MovementsController.php:55;79;123;149;174
+#: Controller/MovementsController.php:57;81;125;151;176
 msgid "The movement could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/MovementsController.php:104
+#: Controller/MovementsController.php:106
 msgid "Movement deleted"
 msgstr ""
 
-#: Controller/MovementsController.php:107
+#: Controller/MovementsController.php:109
 msgid "Movement was not deleted"
 msgstr ""
 
-#: Controller/MovementsController.php:143
+#: Controller/MovementsController.php:145
 msgid "Copy ID is required"
 msgstr ""
 
-#: Controller/MovementsController.php:180
+#: Controller/MovementsController.php:182
 msgid "You only can return based on a rent movement"
 msgstr ""
 
-#: Controller/MovementsController.php:184
+#: Controller/MovementsController.php:186
 msgid "You only can return once"
 msgstr ""
 
-#: Controller/MovementsController.php:234;279
+#: Controller/MovementsController.php:236;281
 msgid "You must select complete dates"
 msgstr ""
 
@@ -271,6 +271,7 @@ msgstr ""
 #: View/Copies/index.ctp:49
 #: View/Formats/index.ctp:31
 #: View/Movements/index.ctp:57
+#: View/Movements/pending.ctp:32
 #: View/Users/index.ctp:34
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
 msgstr ""
@@ -279,6 +280,7 @@ msgstr ""
 #: View/Copies/index.ctp:55
 #: View/Formats/index.ctp:37
 #: View/Movements/index.ctp:63
+#: View/Movements/pending.ctp:38
 #: View/Users/index.ctp:40
 msgid "previous"
 msgstr ""
@@ -287,6 +289,7 @@ msgstr ""
 #: View/Copies/index.ctp:57
 #: View/Formats/index.ctp:39
 #: View/Movements/index.ctp:65
+#: View/Movements/pending.ctp:40
 #: View/Users/index.ctp:42
 msgid "next"
 msgstr ""
@@ -589,7 +592,7 @@ msgid "Edit Format"
 msgstr ""
 
 #: View/Formats/index.ctp:2
-#: View/Layouts/default.ctp:47
+#: View/Layouts/default.ctp:48
 msgid "Formats"
 msgstr ""
 
@@ -609,17 +612,22 @@ msgstr ""
 msgid "Related Copies"
 msgstr ""
 
-#: View/Layouts/default.ctp:48
+#: View/Layouts/default.ctp:47
+#: View/Movements/pending.ctp:3
+msgid "Pending"
+msgstr ""
+
+#: View/Layouts/default.ctp:49
 #: View/Movements/index.ctp:2
 msgid "Movements"
 msgstr ""
 
-#: View/Layouts/default.ctp:49
+#: View/Layouts/default.ctp:50
 #: View/Movements/reportform.ctp:9
 msgid "Report"
 msgstr ""
 
-#: View/Layouts/default.ctp:50
+#: View/Layouts/default.ctp:51
 msgid "Logout"
 msgstr ""
 
