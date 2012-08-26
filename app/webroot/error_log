@@ -38,3 +38,11 @@
 [23-Feb-2012 06:30:47 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 7
 [23-Feb-2012 06:31:02 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 7
 [23-Feb-2012 06:33:19 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/UsersController.php on line 7
+[03-Mar-2012 19:30:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Clients/view.ctp on line 114
+[05-Mar-2012 05:45:46 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/dmst/public_html/desenvolupaments/dvdclub/app/Model/Movement.php on line 25
+[05-Mar-2012 08:44:26 UTC] PHP Fatal error:  Call to a member function writeBuffer() on a non-object in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Layouts/default.ctp on line 70
+[05-Mar-2012 09:11:41 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Movements/rent.ctp on line 2
+[05-Mar-2012 09:16:04 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/dmst/public_html/desenvolupaments/dvdclub/app/View/Movements/rent.ctp on line 9
+[06-Mar-2012 06:01:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/dmst/public_html/desenvolupaments/dvdclub/app/Model/Movement.php on line 24
+[17-Mar-2012 12:14:37 UTC] PHP Fatal error:  Cannot redeclare MovementsController::index() in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php on line 305
+[17-Mar-2012 12:32:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/dmst/public_html/desenvolupaments/dvdclub/app/Controller/MovementsController.php on line 310
