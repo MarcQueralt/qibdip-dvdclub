@@ -4,7 +4,7 @@
         <?php echo $this->Form->create('Copy', array('action' => 'search')); ?>
         <fieldset>
             <legend><?php __('Copy Search');?></legend>
-            <?php echo $this->Form->input('Search.id', array('div' => false, 'default' => ((isset($this->passedArgs['Search.id']))?$this->passedArgs['Search.id']:'')));?>
+            <?php echo $this->Form->input('Search.label', array('div' => false, 'default' => ((isset($this->passedArgs['Search.label']))?$this->passedArgs['Search.label']:'')));?>
             <?php echo $this->Form->input('Search.title', array('div' => false, 'default' => ((isset($this->passedArgs['Search.title']))?$this->passedArgs['Search.title']:'')));?>
             <?php echo $this->Form->submit(__('Search', true), array('div' => false));?>
         </fieldset>
@@ -12,7 +12,7 @@
     </div>
     <table cellpadding="0" cellspacing="0">
         <tr>
-            <th><?php echo $this->Paginator->sort('id');?></th>
+            <th><?php echo $this->Paginator->sort('label');?></th>
             <th><?php echo $this->Paginator->sort('title');?></th>
             <th><?php echo $this->Paginator->sort('format_id');?></th>
             <th><?php echo $this->Paginator->sort('active');?></th>
@@ -24,7 +24,7 @@
         <?php
         foreach ($copies as $copy): ?>
         <tr>
-            <td><?php echo h($copy['Copy']['id']); ?>&nbsp;</td>
+            <td><?php echo h($copy['Copy']['label']); ?>&nbsp;</td>
             <td><?php echo h($copy['Copy']['title']); ?>&nbsp;</td>
             <td>
                     <?php echo $this->Html->link($copy['Format']['description'], array('controller' => 'formats', 'action' => 'view', $copy['Format']['id'])); ?>

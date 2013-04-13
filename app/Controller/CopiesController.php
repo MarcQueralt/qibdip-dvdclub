@@ -39,9 +39,9 @@ class CopiesController extends AppController {
             $searchedTitle = $this->passedArgs['Search.title'];
             $this->paginate['conditions'][]['Copy.title LIKE'] = "%$searchedTitle%";
         endif;
-        if(isset($this->passedArgs['Search.id'])):
-            $searchedId = $this->passedArgs['Search.id'];
-            $this->paginate['conditions'][]['Copy.id'] = "$searchedId";
+        if(isset($this->passedArgs['Search.label'])):
+            $searchedId = $this->passedArgs['Search.label'];
+            $this->paginate['conditions'][]['Copy.label'] = "$searchedId";
         endif;
         $this->set('copies', $this->paginate());
     }

@@ -1,9 +1,9 @@
 <div class="copies view">
     <h2><?php  echo __('Copy');?></h2>
     <dl>
-        <dt><?php echo __('Id'); ?></dt>
+        <dt><?php echo __('Label'); ?></dt>
         <dd>
-            <?php echo h($copy['Copy']['id']); ?>
+            <?php echo h($copy['Copy']['label']); ?>
             &nbsp;
         </dd>
         <dt><?php echo __('Title'); ?></dt>

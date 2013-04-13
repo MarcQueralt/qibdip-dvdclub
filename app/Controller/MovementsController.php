@@ -153,8 +153,16 @@ class MovementsController extends AppController {
             endif;
         }
         $clients = $this->Movement->Client->find('list');
-        $copies = $this->Movement->Copy->find('list');
-        $this->set(compact('clients', 'copies'));
+        $copies = $this->Movement->Copy->find('list',array(
+            'order'=>'label desc',
+            'conditions'=>'active=1'
+        ));
+        $copyLabels = $this->Movement->Copy->find('list',array(
+            'order'=>'label',
+            'fields'=>'label,id',
+            'conditions'=>'active=1'
+        ));
+        $this->set(compact('clients', 'copies','copyLabels'));
     }
 
     /**

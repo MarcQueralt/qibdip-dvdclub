@@ -3,7 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Edit Copy'); ?></legend>
 	<?php
-		echo $this->Form->input('id');
+		echo $this->Form->input('label');
 		echo $this->Form->input('title');
 		echo $this->Form->input('format_id');
 		echo $this->Form->input('active');

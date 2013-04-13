@@ -1,14 +1,16 @@
+<!--<pre><?php print_r($this->viewVars['copyLabels']);?></pre>-->
 <div class="movements form">
     <?php echo $this->Form->create('Movement');?>
     <fieldset>
         <legend><?php echo __('Movie rental'); ?></legend>
         <?php
         echo $this->Form->input('client_id',array('default' => isset($this->passedArgs)?$this->passedArgs:'','empty'=>true));
-        echo $this->Form->input('copy_id_search',array('style'=>'width:100px;margin-right:10px;','div'=>''));
+        echo $this->Form->input('copy_id_search',array('style'=>'width:100px;margin-right:10px;','div'=>'','label'=>''));
         echo $this->Form->button(__('Search'),array('type'=>'button','id'=>'copySearch','style'=>'height:41px;padding:5px;'));
         $this->Js->get('#copySearch');
         $this->Js->event('click','searchCopy();');
         echo $this->Form->input('copy_id',array('empty'=>true));
+        echo $this->Form->input('label',array('empty'=>true,'type'=>'select','options'=>$this->viewVars['copyLabels'],'id'=>'label2id','hidden'=>true,'label'=>''));
         echo $this->Form->input('mov_type',array('type' => 'hidden', 'default' => 'C'));
         echo $this->Form->input('started',array('dateFormat'=>'DMY','monthNames'=>false));
         echo $this->Form->input('prepaid',array('label'=>__('Prepayed')));

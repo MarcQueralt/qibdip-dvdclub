@@ -20,7 +20,7 @@ class Copy extends AppModel {
      */
     public $displayField = 'copy_complete_name';
     public $virtualFields = array(
-        'copy_complete_name'=>'CONCAT(LPAD(Copy.id,4,"0")," - ",Copy.title)',
+        'copy_complete_name'=>'CONCAT(LPAD(Copy.label,4,"0")," - ",Copy.title)',
         'copy_sales'=>'select sum(m.amount) from movements m where m.copy_id=Copy.id and m.mov_type="C"',
     );
     /**
